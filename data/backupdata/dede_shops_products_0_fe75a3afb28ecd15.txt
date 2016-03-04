@@ -1,0 +1,2 @@
+INSERT INTO `dede_shops_products` VALUES('949','S-P1362935520RN774','6','≤‚ ‘2','1.00','1');
+INSERT INTO `dede_shops_products` VALUES('948','S-P1362935786RN662','6','≤‚ ‘','1.00','1');

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="{dede:global.cfg_soft_lang /}" ?>
+<rss version="2.0">
+<channel>
+<title>{dede:field.typename runphp='yes'}if(!@me)@me="互传站长网";{/dede:field.typename}</title>
+<link>{dede:field name='typelink' function='str_replace("http://www.huchuan6.comhttp://","http://",@me)'/}</link>
+<description>{dede:field.title function='html2text(@me)' runphp='yes'}if(@me=="没指定分类！")@me="互传站长网-关注中小站长和创业者的平台，分享一些站长新闻,建站教程,网站推广,网站营运,网站优化,站长经验,创业经验,个人站长赚钱等精品内容！";{/dede:field.title}</description>
+<language>zh-cn</language>
+<generator><![CDATA[Copyright &amp;copy; 2012-2014 HuChuan6.Com 版权所有&lt;br /&gt;桂ICP备09007290号]]></generator>
+<webmaster>{dede:field name='adminemail'/}</webmaster>
+{dede:arclist typeid='0' row='2000'}
+<item>
+    <title><![CDATA[[field:title/]]]></title>
+    <link>[field:fullurl function='str_replace("http://www.huchuan6.comhttp://","http://",@me)'/]</link>
+    <description><![CDATA[[field:description function='html2text(@me)'/]...<br /><b>文章分类</b>:<a href="[field:typeurl/]" target="_blank">[field:typename/]</a><br /><a href="[field:arcurl/]" target="_blank">阅读全文</a> | <a href="http://www.huchuan6.com/plus/recommend.php?aid=[field:id/]" target="_blank">邮件推荐</a> | <a href="[field:arcurl/]" target="_blank">评论回复</a>]]></description>
+    <pubDate>[field:stime/]</pubDate>
+    <category>[field:typename/]</category>
+    <author>[field:writer/]</author>
+    <comments>[field:source/]</comments>
+</item>
+{/dede:arclist}
+</channel>
+</rss>

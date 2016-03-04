@@ -1,0 +1,2 @@
+INSERT INTO `dede_shops_userinfo` VALUES('6','S-P1362935520RN774','werwer','ewrwerwe','654321','12311223456','','qwewqeqwe');
+INSERT INTO `dede_shops_userinfo` VALUES('6','S-P1362935786RN662','erterterterte','qwerwr5432534534534','543300','13877655655','','ewrewrwerwerwe');

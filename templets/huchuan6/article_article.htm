@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field name='title'/} -{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<LINK rel=stylesheet type=text/css href="/templets/css/css/article_list.css">
+<LINK rel=stylesheet type=text/css href="/templets/css/css/layout2.css">
+<SCRIPT language=javascript src="/templets/css/js/jquery.js"></SCRIPT>
+<SCRIPT type=text/javascript src="/templets/css/js/w3cer.js"></SCRIPT>
+<META name=GENERATOR content="MSHTML 9.00.8112.16464"></HEAD>
+
+<BODY>
+{dede:include filename="head3.htm"/}
+<DIV class=map><SPAN class=home_ico>当前位置：{dede:field name='position'/}</SPAN>
+<P style="PADDING-RIGHT: 15px; FLOAT: right">
+<script src='/plus/ad_js.php?aid=24' language='javascript'></script>
+</P></DIV>
+<DIV style="MARGIN-TOP: 8px" class=w972>
+<DIV class="article_article_left left">
+<DIV class=article_con>
+<H1>{dede:field.title/}</H1>
+<P 
+class=info>作者:{dede:field.writer/}   发布时间:{dede:field.pubdate function="MyDate('Y-m-d',@me)"/}   阅读:<script src="{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/}" type='text/javascript' language="javascript"></script>   转至微博：
+
+<script type="text/javascript" charset="utf-8">
+(function(){
+  var _w = 16 , _h = 16;
+  var param = {
+    url:location.href,
+    type:'3',
+    count:'', /**是否显示分享数，1显示(可选)*/
+    appkey:'4188817647', /**您申请的应用appkey,显示分享来源(可选)*/
+    title:'【{dede:field name='title'/} -{dede:global.cfg_webname/}】{dede:field name='description' function='html2text(@me)'/}', /**分享的文字内容(可选，默认为所在页面的title)*/
+    pic:'', /**分享图片的路径(可选)*/
+    ralateUid:'5089027713', /**关联用户的UID，分享微博会@该用户(可选)*/
+    rnd:new Date().valueOf()
+  }
+  var temp = [];
+  for( var p in param ){
+    temp.push(p + '=' + encodeURIComponent( param[p] || '' ) )
+  }
+  document.write('<iframe allowTransparency="true" frameborder="0" scrolling="no" src="http://hits.sinajs.cn/A1/weiboshare.html?' + temp.join('&') + '" width="'+ _w+'" height="'+_h+'"  align="absbottom"></iframe>')
+})()
+</script> </P>
+<DIV class=tool_con>
+<DIV class=btn_fontsize><A onfocus=if(this.blur)this.blur() 
+href="javascript:put_layer(2);"><IMG title=工具栏 
+src="/templets/css/img/btn_fontsize_up.gif"></A> </DIV>
+<DIV style="DISPLAY: block" id=put_layer2 class=tools>
+<SCRIPT language=javascript type=text/javascript 
+src="/templets/css/js/tools.js"></SCRIPT>
+</DIV>
+<DIV style="CLEAR: both"></DIV></DIV>
+<!--广告<DIV class=article_ad>
+
+</DIV>-->
+<DIV id=a_fontsize class=article_txt>
+
+<table>
+  <tr>
+    <td>
+	{dede:field.body/}
+
+
+
+
+<p></p>
+
+<div class="tag_list">
+关键词：{dede:tag sort='month'} <a href='[field:link/]' target=_blank>[field:tag /]</a>{/dede:tag}
+				 </div>
+				  </td>
+  </tr>
+</table>
+
+
+				  </DIV>
+<DIV class=contentpage>
+<UL>{dede:pagebreak/}</UL>
+<DIV style="CLEAR: both"></DIV></DIV>
+
+
+
+
+<!--分享到-->
+<DIV class=share>
+<DIV class=ilike><!-- 将此标记放在您希望显示like按钮的位置 -->
+<DIV class=bdlikebutton></DIV><!-- 将此代码放在适当的位置，建议在body结束前 -->
+<SCRIPT id=bdlike_shell></SCRIPT>
+
+<SCRIPT>
+var bdShare_config = {
+	"type":"medium",
+	"color":"blue",
+	"uid":"627811",
+	"likeText":"顶一个",
+	"likedText":"亲.您已顶过"
+};
+document.getElementById("bdlike_shell").src="http://bdimg.share.baidu.com/static/js/like_shell.js?t=" + new Date().getHours();
+</SCRIPT>
+</DIV>
+
+
+<!-- Baidu Button BEGIN -->
+<DIV id=bdshare class="bdsharebuttonbox"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_taobao" data-cmd="taobao" title="分享到我的淘宝"></a><a href="#" class="bds_bdysc" data-cmd="bdysc" title="分享到百度云收藏"></a><a href="#" class="bds_hi" data-cmd="hi" title="分享到百度空间"></a><a href="#" class="bds_more" data-cmd="more"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+<!-- Baidu Button END --></DIV><!--end-->
+<DIV class=related>
+<DIV class=xiangguan>
+<H2>相关文章</H2>
+<UL>{dede:likearticle typeid='all' row='8' titlelen='40'}
+  <LI><A href="[field:arcurl/]">[field:title/]</A>  {/dede:likearticle}	</LI>
+  </UL></DIV>
+<DIV class=like_article_ad>
+<script src='/plus/ad_js.php?aid=25' language='javascript'></script>
+
+</DIV>
+<DIV style="CLEAR: both"></DIV></DIV></DIV><!--评论部分-->
+<DIV class=duoshuo>
+{dede:include file='ajaxfeedback.htm' /}</DIV></DIV><!--article_list_left end-->
+<DIV class="article_list_right right">
+
+<DIV class=rand_pic>
+<H2><SPAN class=h2_txt>推荐图文</SPAN></H2>
+<UL>{dede:arclist  orderby=pubdate limit='0,4' type='image.'  titlelen=24}
+  <LI><A title=[field:title/]
+  href="[field:arcurl/]"><IMG border=0 
+  alt=[field:title function='html2text(@me)'/] src="[field:litpic/]" 
+  width=140 height=100><SPAN title=[field:title/]>[field:title/]</SPAN></A> 
+  </LI>{/dede:arclist}
+ </UL>
+<DIV style="CLEAR: both"></DIV></DIV>
+
+<DIV class=hot_tj>
+<H2><SPAN class=h2_txt>热点推荐</SPAN></H2>
+<UL>{dede:arclist  limit='0,10' subday='20' typeid=all orderby=click titlelen=33}
+  <LI><A title=[field:title/] 
+  href="[field:arcurl/]">[field:title/]</A> {/dede:arclist}
+  
+</LI></UL>
+<DIV style="CLEAR: both"></DIV></DIV><!--热门推荐 end-->
+<DIV class=rand>
+<H2><SPAN class=h2_txt>论坛热点</SPAN></H2>
+
+<script type="text/javascript" src="http://bbs.huchuan6.com/api.php?mod=js&bid=3"></script>
+</DIV>
+
+<DIV class=rand>
+<H2><SPAN class=h2_txt>最新文章</SPAN></H2>
+<UL>
+{dede:arclist  limit='0,15' type='image.' typeid=all titlelen=33}
+  <LI><A title=[field:title/] 
+  href="[field:arcurl/]">[field:title/]</A> {/dede:arclist}
+</LI></UL></DIV>
+
+<DIV style="BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; WIDTH: 250px; MARGIN-BOTTOM: 8px; MARGIN-TOP: 6px; HEIGHT: 250px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid" 
+class=ad250>
+<script src='/plus/ad_js.php?aid=23' language='javascript'></script>
+
+</DIV>
+</DIV>
+<DIV style="CLEAR: both"></DIV></DIV>
+
+{dede:include filename="footer2.htm"/}
+</BODY></HTML>

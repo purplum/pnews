@@ -1,0 +1,579 @@
+H1 {
+	text-shadow: #F3F3F3 1px 1px 0px, #B2B2B2 1px 2px 0
+}
+.h2_txt {
+	PADDING-LEFT: 12px; DISPLAY: inline-block; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/jia_ico.gif) no-repeat left center
+}
+.article_list_con {
+	PADDING-TOP: 8px
+}
+.article_list_left {
+	WIDTH: 712px; HEIGHT: auto; OVERFLOW: hidden
+}
+.tuwen {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 20px; WIDTH: 710px; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/bg2.png) repeat-x left top; HEIGHT: 151px; OVERFLOW: hidden; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.tuwen UL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; DISPLAY: block; FLOAT: left; PADDING-TOP: 20px
+}
+.tuwen LI {
+	BORDER-BOTTOM: #ccc 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #ccc 1px solid; WIDTH: 150px; DISPLAY: inline; FLOAT: left; BORDER-TOP: #ccc 1px solid; MARGIN-RIGHT: 20px; BORDER-RIGHT: #ccc 1px solid
+}
+.tuwen LI SPAN {
+	LINE-HEIGHT: 20px; DISPLAY: block; HEIGHT: 20px; BORDER-TOP: #ccc 1px solid; -webkit-transition: all 0.4s ease-out; -o-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; -ms-transition: all 0.4s ease-out
+}
+.tuwen LI A:hover SPAN {
+	COLOR: #f60
+}
+.tuwen LI A IMG {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; WIDTH: 140px; PADDING-RIGHT: 4px; HEIGHT: 100px; PADDING-TOP: 4px
+}
+.tuwen LI A:hover IMG {
+	
+}
+.lanmu {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid;  WIDTH: 710px; BORDER-TOP: #ccc 1px; BORDER-RIGHT: #ccc 1px solid
+}
+.lanmu H2 {
+	BORDER-BOTTOM: #ccc 1px solid; PADDING-LEFT: 8px; FONT: bold 14px/32px Verdana, Geneva, sans-serif; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/top_h2.gif) repeat-x left top; HEIGHT: 32px; COLOR: #2267b5
+}
+.h2_text {
+	PADDING-LEFT: 10px; DISPLAY: inline-block; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/h2_ico.gif) no-repeat left center
+}
+.lanmu_con {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; PADDING-TOP: 20px
+}
+.lanmu_pic {
+	FLOAT: left
+}
+.lanmu_pic UL LI {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 20px; WIDTH: 148px; HEIGHT: 126px
+}
+
+.lanmu_pic UL LI p {
+	PADDING-TOP: 6px; PADDING-BOTTOM: 6px; HEIGHT: 20px
+}
+
+
+.lanmu_pic UL A IMG {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; WIDTH: 140px; PADDING-RIGHT: 3px; BACKGROUND: #eee; HEIGHT: 100px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 3px; -webkit-transition: all 0.4s ease-out; -o-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; -ms-transition: all 0.4s ease-out
+}
+.lanmu_pic UL A:hover IMG {
+	BORDER-BOTTOM: #0055a6 1px solid; BORDER-LEFT: #0055a6 1px solid; BACKGROUND: #fff; BORDER-TOP: #0055a6 1px solid; BORDER-RIGHT: #0055a6 1px solid
+}
+.lanmu_txt {
+	MARGIN-TOP: 0px; FLOAT: right
+}
+.lanmu_txt UL {
+	WIDTH: 490px
+}
+.lanmu_txt UL LI {
+	HEIGHT: 35px; PADDING-LEFT: 15px; FONT: 14px Verdana, Geneva, sans-serif; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/ll_bg.gif) no-repeat left center
+}
+.lanmu_txt UL LI SPAN {
+	FLOAT: right; WIDTH: 48px; DISPLAY: block; FONT: 14px/30px Verdana, Geneva, sans-serif;  -webkit-transition: all 0.4s ease-out; -o-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; -ms-transition: all 0.4s ease-out
+}
+.lanmu_txt UL LI A {
+	HEIGHT: 30px; WIDTH: 420px; DISPLAY: block; FONT: 14px/30px Verdana, Geneva, sans-serif;  -webkit-transition: all 0.4s ease-out; -o-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; -ms-transition: all 0.4s ease-out
+}
+.lanmu_txt UL LI A:hover {
+	COLOR: #0055a6; 
+}
+.article_list_right {
+	WIDTH: 252px; HEIGHT: auto; OVERFLOW: hidden
+}
+.fenlei {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 15px; WIDTH: 250px; MARGIN-BOTTOM: 8px; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/top_news_bg.gif) no-repeat left top; HEIGHT: auto; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.fenlei H2 {
+	BORDER-BOTTOM: #ccc 1px solid; MARGIN: 0px 10px; PADDING-LEFT: 3px; FONT: bold 14px/35px Verdana, Geneva, sans-serif; HEIGHT: 35px; COLOR: #2267b5
+}
+.fenlei UL LI {
+	BORDER-BOTTOM: #ccc 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #ccc 1px solid; LINE-HEIGHT: 25px; MARGIN: 15px 0px 0px 15px; WIDTH: 100px; DISPLAY: inline; FLOAT: left; HEIGHT: 25px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.fenlei LI A {
+	WIDTH: 100px; DISPLAY: block; FONT-FAMILY: Verdana, Geneva, sans-serif; HEIGHT: 25px; -webkit-transition: all 0.2s ease-out
+}
+.fenlei LI A:hover {
+	BACKGROUND: url(http://www.huchuan6.com/templets/css/img/w3c_tt.png) repeat-x left center
+}
+.fenlei LI .thisclass {
+	BACKGROUND: url(http://www.huchuan6.com/templets/css/img/w3c_tt.png) repeat-x left center
+}
+.rand_pic {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; WIDTH: 250px; MARGIN-BOTTOM: 8px; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/top_news_bg.gif) no-repeat left top; HEIGHT: auto; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.rand_pic H2 {
+	BORDER-BOTTOM: #ccc 1px solid; MARGIN: 0px 10px; PADDING-LEFT: 3px; FONT: bold 14px/35px Verdana, Geneva, sans-serif; HEIGHT: 35px; COLOR: #2267b5
+}
+.rand_pic UL {
+	MARGIN-TOP: 8px
+}
+.rand_pic UL LI {
+	TEXT-ALIGN: center; PADDING-LEFT: 0px; WIDTH: 108px; DISPLAY: inline; FLOAT: left; HEIGHT: 110px; MARGIN-LEFT: 12px; OVERFLOW: hidden
+}
+.rand_pic UL LI IMG {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; WIDTH: 100px; PADDING-RIGHT: 3px; HEIGHT: 80px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 3px
+}
+.rand_pic UL SPAN {
+	LINE-HEIGHT: 20px !important; DISPLAY: block; HEIGHT: 25px
+}
+.rand_pic UL LI A {
+	COLOR: #666; -webkit-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; -ms-transition: all 0.4s ease-out; transition: all 0.4s ease-out
+}
+.rand_pic UL LI A:hover {
+	COLOR: #0055a6
+}
+.hot_tj {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 15px; WIDTH: 250px; MARGIN-BOTTOM: 8px; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/top_news_bg.gif) no-repeat left top; HEIGHT: auto; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.hot_tj H2 {
+	BORDER-BOTTOM: #ccc 1px solid; MARGIN: 0px 10px; PADDING-LEFT: 3px; FONT: bold 14px/35px Verdana, Geneva, sans-serif; HEIGHT: 35px; COLOR: #2267b5
+}
+.hot_tj UL {
+	MARGIN: 5px 0px 0px 12px; WIDTH: 228px; DISPLAY: block; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/ul_bg.gif) no-repeat left 6px; HEIGHT: 290px; OVERFLOW: hidden
+}
+.hot_tj UL LI {
+	LINE-HEIGHT: 2.5; PADDING-LEFT: 20px
+}
+.hot_tj UL LI A {
+	COLOR: #333; -webkit-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; -ms-transition: all 0.4s ease-out; transition: all 0.4s ease-out
+}
+.hot_tj UL LI A:hover {
+	COLOR: #0055a6
+}
+.rand {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; WIDTH: 250px; MARGIN-BOTTOM: 8px; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/top_news_bg.gif) no-repeat left top; OVERFLOW: hidden; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid;
+PADDING-BOTTOM: 5px;}
+.rand H2 {
+	BORDER-BOTTOM: #ccc 1px solid; MARGIN: 0px 10px; PADDING-LEFT: 3px; FONT: bold 14px/35px Verdana, Geneva, sans-serif; HEIGHT: 35px; COLOR: #2267b5
+}
+.rand UL {
+	MARGIN-TOP: 5px; MARGIN-LEFT: 12px
+}
+.rand UL LI {
+	LINE-HEIGHT: 2; PADDING-LEFT: 10px; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/dotted.gif) no-repeat left center
+}
+.rand UL LI A {
+	COLOR: #333; -webkit-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; -ms-transition: all 0.4s ease-out; transition: all 0.4s ease-out
+}
+.rand UL LI A:hover {
+	COLOR: #0055a6
+}
+.article_article_left {
+	WIDTH: 712px; HEIGHT: auto; OVERFLOW: hidden
+}
+.article_con {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; WIDTH: 710px; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/top_h2.gif) repeat-x left top; BORDER-TOP: #ccc 1px; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 25px
+}
+.article_con H1 {
+	TEXT-ALIGN: center; FONT: bold 18px Tahoma, Geneva, sans-serif; MARGIN-BOTTOM: 12px; COLOR: #0055a6
+}
+.info {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Verdana, Geneva, sans-serif; PADDING-TOP: 0px
+}
+.article_ad {
+	BORDER-BOTTOM: #ddd 1px solid; PADDING-BOTTOM: 5px; MARGIN: 15px auto 5px; PADDING-LEFT: 5px; WIDTH: 640px; PADDING-RIGHT: 5px; HEIGHT: 60px; BORDER-TOP: #ddd 1px solid; PADDING-TOP: 5px
+}
+.article_ad .ad_left {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; MARGIN: 15px 0px; WIDTH: 300px; FLOAT: left; HEIGHT: 250px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.article_ad .ad_right {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; MARGIN: 15px 0px; WIDTH: 300px; FLOAT: right; HEIGHT: 250px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.article_txt {
+	PADDING-BOTTOM: 15px; LINE-HEIGHT: 1.8; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; FONT-FAMILY: Tahoma, Geneva, sans-serif; COLOR: #222; FONT-SIZE: 14px; BORDER-TOP: #999 1px dashed; PADDING-TOP: 10px
+}
+.article_txt P {
+
+	PADDING-BOTTOM: 6px;
+	OVERFLOW: hidden;
+	TEXT-INDENT: 2em;
+	LINE-HEIGHT: 25px;
+	PADDING-TOP: 6px;
+	text-decoration: none;
+	
+}
+.article_txt IMG {
+	MAX-WIDTH: 680px
+}
+.article_txt A U {
+	BORDER-BOTTOM: #0099ff 1px dotted; COLOR: #0066cc; TEXT-DECORATION: none
+}
+
+.article_txt a {
+COLOR: #0066cc;
+	
+}
+.related {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 10px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; BORDER-TOP: #ccc 1px dashed; PADDING-TOP: 15px
+}
+.xiangguan {
+	FLOAT: left
+}
+.xiangguan H2 {
+	COLOR: #0055a6; FONT-SIZE: 14px
+}
+.xiangguan UL {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 5px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+.xiangguan LI {
+	 LINE-HEIGHT: 2.1; PADDING-LEFT: 13px; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/yuandian.gif) no-repeat left 5px
+}
+.xiangguan LI A {
+	COLOR: #1A1AFF; FONT-SIZE: 14px;
+}
+.xiangguan LI A:hover {
+	TEXT-DECORATION: underline
+}
+.like_article_ad {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; FLOAT: right; PADDING-TOP: 5px
+}
+.share {
+	PADDING-BOTTOM: 10px; MARGIN: 0px 10px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; HEIGHT: 50px; BORDER-TOP: #ccc 1px dashed; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+.ilike {
+	FLOAT: left
+}
+#bdshare {
+	MARGIN-TOP: 5px; FLOAT: right; MARGIN-LEFT: 40px
+}
+.page {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; HEIGHT: auto; BORDER-TOP: #ccc 1px solid; PADDING-TOP: 5px
+}
+.page P {
+	LINE-HEIGHT: 2
+}
+.tool_con {
+	MARGIN: 10px auto 7px; WIDTH: 270px
+}
+.btn_fontsize {
+	FLOAT: left; MARGIN-RIGHT: 5px
+}
+.tools {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 16px; PADDING-TOP: 4px
+}
+.tools SPAN {
+	MARGIN: 0px 5px; FLOAT: left
+}
+.tools A {
+	DISPLAY: block; FLOAT: left
+}
+.bg1 {
+	BORDER-BOTTOM: #bebebe 1px solid; BORDER-LEFT: #bebebe 1px solid; MARGIN: 0px 1px; WIDTH: 10px; DISPLAY: block; FLOAT: left; HEIGHT: 10px; FONT-SIZE: 0px; BORDER-TOP: #bebebe 1px solid; BORDER-RIGHT: #bebebe 1px solid
+}
+.bg2 {
+	BORDER-BOTTOM: #bebebe 1px solid; BORDER-LEFT: #bebebe 1px solid; MARGIN: 0px 1px; WIDTH: 10px; DISPLAY: block; FLOAT: left; HEIGHT: 10px; FONT-SIZE: 0px; BORDER-TOP: #bebebe 1px solid; BORDER-RIGHT: #bebebe 1px solid
+}
+.bg3 {
+	BORDER-BOTTOM: #bebebe 1px solid; BORDER-LEFT: #bebebe 1px solid; MARGIN: 0px 1px; WIDTH: 10px; DISPLAY: block; FLOAT: left; HEIGHT: 10px; FONT-SIZE: 0px; BORDER-TOP: #bebebe 1px solid; BORDER-RIGHT: #bebebe 1px solid
+}
+.bg4 {
+	BORDER-BOTTOM: #bebebe 1px solid; BORDER-LEFT: #bebebe 1px solid; MARGIN: 0px 1px; WIDTH: 10px; DISPLAY: block; FLOAT: left; HEIGHT: 10px; FONT-SIZE: 0px; BORDER-TOP: #bebebe 1px solid; BORDER-RIGHT: #bebebe 1px solid
+}
+.bg5 {
+	BORDER-BOTTOM: #bebebe 1px solid; BORDER-LEFT: #bebebe 1px solid; MARGIN: 0px 1px; WIDTH: 10px; DISPLAY: block; FLOAT: left; HEIGHT: 10px; FONT-SIZE: 0px; BORDER-TOP: #bebebe 1px solid; BORDER-RIGHT: #bebebe 1px solid
+}
+.tools .fz_span {
+	MARGIN: 0px
+}
+.tools .fz_spanz {
+	MARGIN: 0px 0px 0px 5px
+}
+.fz_spanz A {
+	MARGIN: 0px 2px 0px 0px; FLOAT: left; COLOR: #19489e
+}
+.tools A .fs {
+	COLOR: #19489e
+}
+.bg1 {
+	BACKGROUND: #ffffff
+}
+.bg2 {
+	BACKGROUND: #336649
+}
+.bg3 {
+	BACKGROUND: #f1f1f1
+}
+.bg4 {
+	BACKGROUND: #f5faff
+}
+.bg5 {
+	BACKGROUND: #333
+}
+.duoshuo {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; MARGIN-TOP: 8px; WIDTH: auto; HEIGHT: auto; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.duoshuo H2 {
+	BORDER-BOTTOM: #ccc 1px solid; LINE-HEIGHT: 30px; TEXT-INDENT: 10px; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/w3c_tt.png) repeat-x left center; HEIGHT: 30px; FONT-SIZE: 14px
+}
+.duoshuo H2 SPAN {
+	FLOAT: right; COLOR: #ccc; FONT-SIZE: 12px; FONT-WEIGHT: normal; MARGIN-RIGHT: 15px
+}
+.ds-thread {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; PADDING-TOP: 15px
+}
+.article_lanmu {
+	BORDER-BOTTOM: #ccc 1px; BORDER-LEFT: #ccc 1px solid; WIDTH: 710px; BORDER-TOP: #ccc 1px; BORDER-RIGHT: #ccc 1px solid
+}
+.article_lanmu H2 {
+	BORDER-BOTTOM: #ccc 1px solid; PADDING-LEFT: 8px; FONT: bold 14px/32px Verdana, Geneva, sans-serif; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/top_h2.gif) repeat-x left top; HEIGHT: 32px; COLOR: #2267b5
+}
+.h2_text {
+	PADDING-LEFT: 10px; DISPLAY: inline-block; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/h2_ico.gif) no-repeat left center
+}
+.article_lanmu UL {
+	PADDING-BOTTOM: 13px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px; PADDING-TOP: 14px
+}
+.article_lanmu UL LI {
+	PADDING-LEFT: 15px; FONT: 14px Verdana, Geneva, sans-serif; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/ll_bg.gif) no-repeat left center
+}
+.article_lanmu UL LI SPAN {
+	FLOAT: right
+}
+.article_lanmu UL LI A {
+	DISPLAY: block; FONT: 14px/30px Verdana, Geneva, sans-serif; HEIGHT: 30px; -webkit-transition: all 0.4s ease-out; -o-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; -ms-transition: all 0.4s ease-out
+}
+.article_lanmu UL LI A:hover {
+	COLOR: #0055a6; TEXT-DECORATION: underline
+}
+.article_lanmu DL {
+	BORDER-BOTTOM: #ccc 1px dotted; PADDING-BOTTOM: 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; DISPLAY: block; PADDING-TOP: 15px
+}
+.article_lanmu DL A {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.article_lanmu DL A:hover {
+	COLOR: #2267b5
+}
+.article_lanmu DT {
+	DISPLAY: block; FLOAT: left; MARGIN-RIGHT: 10px
+}
+.article_lanmu DT IMG {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; WIDTH: 150px; HEIGHT: 110px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.article_lanmu DT A:hover IMG {
+	BORDER-BOTTOM: #2267b5 1px solid; FILTER: alpha(opacity=80); BORDER-LEFT: #2267b5 1px solid; BORDER-TOP: #2267b5 1px solid; BORDER-RIGHT: #2267b5 1px solid; -webkit-transition: all 0.2s ease-in-out; opacity: 0.8
+}
+.article_lanmu DD {
+	
+}
+.article_lanmu .arc_title {
+	PADDING-BOTTOM: 5px
+}
+.article_lanmu .arc_title A {
+	FONT: bold 14px/1.6 Verdana, Arial, Helvetica, sans-serif
+}
+.article_lanmu .arc_desc {
+	LINE-HEIGHT: 1.8; HEIGHT: 64px; OVERFLOW: hidden
+}
+.article_lanmu .arc_info {
+	COLOR: #999; PADDING-TOP: 5px
+}
+.article_lanmu .arc_info SPAN {
+	PADDING-RIGHT: 5px
+}
+.article_lanmu .arc_info A {
+	COLOR: #999
+}
+.fanye {
+	BORDER-BOTTOM: #ccc 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 8px; WIDTH: 694px; PADDING-RIGHT: 8px; HEIGHT: auto; BORDER-TOP: #ccc 1px; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 8px
+}
+.fanye A {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 25px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: inline-block; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/w3c_tt.png) repeat-x left top; HEIGHT: 25px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 0px; border-radius: 3px
+}
+.fanye A:hover {
+	BACKGROUND: url(http://www.huchuan6.com/templets/css/img/w3c_ttt.png) repeat-x left top; COLOR: #2267b5
+}
+.fanye .thisclass {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 25px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: inline-block; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/w3c_ttt.png) repeat-x left top; HEIGHT: 25px; COLOR: #2267b5; BORDER-TOP: #ccc 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 0px; border-radius: 3px
+}
+.fanye .pageinfo {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 25px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: inline-block; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/w3c_tt.png) repeat-x left top; HEIGHT: 25px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 0px; border-radius: 3px
+}
+.fanye .last {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 25px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: inline-block; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/w3c_tt.png) repeat-x left top; HEIGHT: 25px; COLOR: #ccc; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 0px; border-radius: 3px
+}
+.contentpage {
+	 TEXT-ALIGN: center; MARGIN-BOTTOM: 20px
+}
+.contentpage A {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 25px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: inline-block; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/w3c_tt.png) repeat-x left top; HEIGHT: 25px; MARGIN-LEFT: 5px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 0px; border-radius: 3px
+}
+.contentpage .total {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 25px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: inline-block; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/w3c_tt.png) repeat-x left top; HEIGHT: 25px; MARGIN-LEFT: 5px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 0px; border-radius: 3px
+}
+.contentpage A:hover {
+	BACKGROUND: url(http://www.huchuan6.com/templets/css/img/w3c_ttt.png) repeat-x left top; COLOR: #2267b5
+}
+.contentpage .thisclass {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/w3c_ttt.png) repeat-x left top; COLOR: #2267b5; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; border-radius: 3px
+}
+.contentpage .thisclass A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; COLOR: #2267b5; FONT-WEIGHT: bold; PADDING-TOP: 0px; border-radius: 3px
+}
+.contentpage .thisclass A:hover {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; COLOR: #2267b5; FONT-WEIGHT: bold; PADDING-TOP: 0px; border-radius: 3px
+}
+.jslanmu {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 19px; WIDTH: 710px; BORDER-TOP: #ccc 1px; BORDER-RIGHT: #ccc 1px solid
+}
+.jslanmu H2 {
+	BORDER-BOTTOM: #ccc 1px solid; PADDING-LEFT: 8px; FONT: bold 14px/32px Verdana, Geneva, sans-serif; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/top_h2.gif) repeat-x left top; HEIGHT: 32px; COLOR: #2267b5
+}
+.jslanmu .h2_text {
+	PADDING-LEFT: 10px; DISPLAY: inline-block; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/h2_ico.gif) no-repeat left center
+}
+.jslanmu DL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 19px; WIDTH: 211px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 19px
+}
+.jslanmu DD {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; LINE-HEIGHT: 20px; TEXT-INDENT: 10px; DISPLAY: block; FONT-FAMILY: Tahoma, Geneva, sans-serif; HEIGHT: 20px; BORDER-TOP: #ccc 1px; BORDER-RIGHT: #ccc 1px solid
+}
+.jslanmu .span1 {
+	BORDER-BOTTOM-STYLE: none; FONT-WEIGHT: bold
+}
+.jslanmu .span2 {
+	COLOR: #999
+}
+.jslanmu A:hover {
+	COLOR: #2267b5
+}
+.jslanmu A {
+	COLOR: #999; -webkit-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; -ms-transition: all 0.4s ease-out; transition: all 0.4s ease-out
+}
+.jslanmu IMG {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; WIDTH: 201px; PADDING-RIGHT: 4px; DISPLAY: block; HEIGHT: 143px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 4px
+}
+.jslanmu A IMG {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; COLOR: #999; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; -webkit-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; -ms-transition: all 0.4s ease-out; transition: all 0.4s ease-out
+}
+.jslanmu A:hover IMG {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid; box-shadow: 0 0 5px #666
+}
+.js_rand {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; WIDTH: 250px; MARGIN-BOTTOM: 8px; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/top_news_bg.gif) no-repeat left top; HEIGHT: 254px; OVERFLOW: hidden; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.js_rand H2 {
+	BORDER-BOTTOM: #ccc 1px solid; MARGIN: 0px 10px; PADDING-LEFT: 3px; FONT: bold 14px/35px Verdana, Geneva, sans-serif; HEIGHT: 35px; COLOR: #2267b5
+}
+.js_rand UL {
+	MARGIN-TOP: 5px; MARGIN-LEFT: 12px
+}
+.js_rand UL LI {
+	LINE-HEIGHT: 2.2; PADDING-LEFT: 10px; BACKGROUND: url(http://www.huchuan6.com/templets/css/img/dotted.gif) no-repeat left center
+}
+.js_rand UL LI A {
+	COLOR: #666; -webkit-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; -ms-transition: all 0.4s ease-out; transition: all 0.4s ease-out
+}
+.js_rand UL LI A:hover {
+	COLOR: #0055a6
+}
+PRE {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 5px; MARGIN: 5px auto; PADDING-LEFT: 0px; WIDTH: 98%; PADDING-RIGHT: 5px; FONT-FAMILY: 'Courier New', Monospace; WORD-WRAP: break-word; BACKGROUND: #f7f7f7; FONT-SIZE: 12px; OVERFLOW: hidden; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 5px
+}
+PRE A {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT-STYLE: none; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-STYLE: none; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-RIGHT-STYLE: none; PADDING-TOP: 0px
+}
+PRE A:hover {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT-STYLE: none; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-STYLE: none; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-RIGHT-STYLE: none; PADDING-TOP: 0px
+}
+PRE OL {
+	BORDER-LEFT: #dedede 1px dashed; PADDING-BOTTOM: 5px; LIST-STYLE-TYPE: decimal; TEXT-INDENT: 0px; MARGIN: 0px 0px 1px 3em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #fff; COLOR: #5c5c5c; PADDING-TOP: 5px
+}
+PRE OL LI {
+	LIST-STYLE-POSITION: outside !important; PADDING-BOTTOM: 0px !important; LINE-HEIGHT: 1.6em; LIST-STYLE-TYPE: decimal; MARGIN: 0px; PADDING-LEFT: 10px !important; PADDING-RIGHT: 3px !important; COLOR: #5c5c5c; PADDING-TOP: 0px !important; _list-style: decimal
+}
+PRE OL LI.alt {
+	COLOR: ; CURSOR: pointer; backgurond-color: #f5f5f5
+}
+PRE OL LI.alt:unknown {
+	CURSOR: pointer; backgurond-color: #000000
+}
+PRE OL LI SPAN {
+	WIDTH: 420px; TABLE-LAYOUT: fixed; COLOR: black; OVERFLOW: hidden; WORD-BREAK: break-all
+}
+PRE .comment {
+	COLOR: #008200
+}
+PRE .comments {
+	COLOR: #008200
+}
+PRE .string {
+	COLOR: blue
+}
+PRE .keyword {
+	COLOR: #069; FONT-WEIGHT: bold
+}
+PRE .preprocessor {
+	COLOR: gray
+}
+PRE .dp-xml .cdata {
+	COLOR: #ff1493
+}
+PRE .dp-xml .tag {
+	COLOR: #069; FONT-WEIGHT: bold
+}
+PRE .dp-xml .tag-name {
+	COLOR: #069; FONT-WEIGHT: bold
+}
+PRE .dp-xml .attribute {
+	COLOR: red
+}
+PRE .dp-xml .attribute-value {
+	COLOR: blue
+}
+PRE .dp-sql .func {
+	COLOR: #ff1493
+}
+PRE .dp-sql .op {
+	COLOR: #808080
+}
+PRE .dp-rb .symbol {
+	COLOR: #a70
+}
+PRE .dp-rb .variable {
+	COLOR: #a70; FONT-WEIGHT: bold
+}
+PRE .dp-py .builtins {
+	COLOR: #ff1493
+}
+PRE .dp-py .magicmethods {
+	COLOR: #808080
+}
+PRE .dp-py .exceptions {
+	COLOR: brown
+}
+PRE .dp-py .types {
+	FONT-STYLE: italic; COLOR: brown
+}
+PRE .dp-py .commonlibs {
+	FONT-STYLE: italic; COLOR: #8a2be2
+}
+PRE .dp-j .annotation {
+	COLOR: #646464
+}
+PRE .dp-j .number {
+	COLOR: #c00000
+}
+PRE .dp-delphi .number {
+	COLOR: blue
+}
+PRE .dp-delphi .directive {
+	COLOR: #008284
+}
+PRE .dp-delphi .vars {
+	COLOR: #000
+}
+PRE .dp-css .value {
+	COLOR: black
+}
+PRE .dp-css .important {
+	COLOR: red
+}
+PRE .dp-c .vars {
+	COLOR: #d00
+}
+PRE .dp-cpp .datatypes {
+	COLOR: #2e8b57; FONT-WEIGHT: bold
+}

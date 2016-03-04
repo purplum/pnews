@@ -1,0 +1,324 @@
+<?php
+/**
+ * 采集指定节点
+ *
+ * @version        $Id: co_gather_start.php 1 14:31 2010年7月12日Z tianya $
+ * @package        DedeCMS.Administrator
+ * @copyright      Copyright (c) 2007 - 2010, DesDev, Inc.
+ * @license        http://help.dedecms.com/usersguide/license.html
+ * @link           http://www.dedecms.com
+ */
+require_once(dirname(__FILE__)."/config.php");
+require_once(DEDEINC."/dedecollection.class.php"); 
+if($dopost=="post")
+{
+	if(empty($keys)){
+		ShowMsg("关键词不能为空!","co_taobao_start.php");
+		 exit();
+	} 
+	
+	require_once(DEDEADMIN.'/inc/taobao_api.php');
+	$app=require(DEDEDATA."/tb_k.php");
+	$appKey = $app['appKey'];
+	$appSecret = $app['appSecret'];
+	
+    $keys=iconv('gbk','utf-8',$keys);
+	$price1=intval($price1);
+	$setpage=intval($setpage);
+	$price1=empty($price1)?30:$price1;
+	$price2=empty($price2)?1000:$price2;
+	$page_size=empty($page_size)?1:$page_size;
+ 
+	$taoke=new taobaoke($keys.',1000,'.$price1.','.$price2.','.$page_size,$appKey,$appSecret); 
+	$taokeArr=$taoke->getTaokeResult();  
+	arr2file(DEDEDATA."/tb_a.php", $taokeArr);
+	ShowMsg("采集成功，选择入库!","co_taobao_start.php?dopost=show_pic");
+ 
+}
+else if($dopost=="show_pic")
+{	
+	$taokeArr=require(DEDEDATA."/tb_a.php");
+	include DedeInclude('templets/co_taobao_url.htm');
+	
+}
+
+else if($dopost=="clear")
+{	
+	if($ids==''){
+	   ShowMsg("请选择ID!","co_taobao_start.php?dopost=show_pic");
+	   exit();
+   } 
+	$idArr=explode(',',$ids);
+	$taokeArr=require(DEDEDATA."/tb_a.php");
+	foreach($taokeArr as $k=>$vl){
+		if(!in_array($k,$idArr)){
+			$re[]=$vl;
+		}
+	}
+	arr2file(DEDEDATA."/tb_a.php", $re);	 
+	ShowMsg("删除成功!","co_taobao_start.php?dopost=show_pic");	
+}
+else if($dopost=="co_pic")
+{	
+   if(empty($typeid)){
+	   ShowMsg("请选择分类!",'javascript:;');
+	   exit();
+   }
+    $typeid = isset($typeid) && is_numeric($typeid) ? $typeid : 0;
+    $pageno = isset($pageno) && is_numeric($pageno) ? $pageno : 1;	
+	$page=10;
+	$start=($pageno-1)*$page;
+	$end=$start+$page;
+	if($end>$totalcc)$end=$totalcc;
+	$pages=ceil($totalcc/$page);
+	require_once(DEDEADMIN."/inc/inc_archives_functions.php");
+	$arr=require(DEDEDATA."/tb_a.php");	
+	$imgurls ="{dede:pagestyle maxwidth='600' pagepicnum='12' ddmaxwidth='500' row='1' col='1' value='2'/}";	 
+	$tb_url=DEDEDATA."/tb_b.php";
+	$re=array();
+	if(file_exists($tb_url)&&$pageno>1)$re=require($tb_url);
+ 
+	for($i=$start;$i<$end;$i++){
+		if(empty($arr[$i]))continue;
+		//$idesc=iconv('gbk','utf-8',$arr[$i]['title']);
+		$idesc=strip_tags($arr[$i]['title']);		
+		$imginfo=$idesc;
+		$ilink1 =$arr[$i]['click_url'];
+		$ilink2 =$arr[$i]['price'];
+		$v=UploadOneImage('',$arr[$i]['pic_url'],1);
+		$img=$cfg_basedir.$v; 
+		$imginfos = GetImageSize($img, $info);
+		$imgurls .= "{dede:img ddimg='$v' text='$imginfo' desc='$idesc' link1='$ilink1' link2='$ilink2' width='".$imginfos[0]."' height='".$imginfos[1]."'} $v {/dede:img}\r\n";  
+	}
+	//$imgurls=iconv('gb2312','utf-8',$imgurls);
+	$re[]=array($imginfo,$imgurls);
+	arr2file($tb_url,$re); 
+	$pageno++;
+	if($pageno<=$pages){
+		$gourl = "co_taobao_start.php?dopost=co_pic&totalcc=$totalcc&typeid=$typeid&pageno=$pageno";
+		ShowMsg("开始采集图片素材，继续执行操作...",$gourl,'',500);
+		exit();
+	}else{
+		ShowMsg("采集成功，准备入库!","co_taobao_start.php?dopost=co_in&typeid=$typeid");
+		exit();
+	} 
+	 exit();
+}
+else if($dopost=="co_in")
+{	  
+    require_once(DEDEINC.'/dedecollection.class.php');
+    $channelid =2;
+    $typeid = isset($typeid) && is_numeric($typeid) ? $typeid : 0;
+    $pageno = isset($pageno) && is_numeric($pageno) ? $pageno : 1;
+    $startid = isset($startid) && is_numeric($startid) ? $startid : 0;
+    $endid = isset($endid) && is_numeric($endid) ? $endid : 0;
+    
+    if(!isset($makehtml)) $makehtml = 0;
+    if(!isset($onlytitle)) $onlytitle = 0;
+    if(!isset($usetitle)) $usetitle = 0;
+    if(!isset($autotype)) $autotype = 0;
+   $orderway =  'desc' ;
+    if($channelid==0 && $typeid==0)
+    {
+        ShowMsg('请指定默认导出栏目或频道ID！','javascript:;');
+        exit();
+    }	 
+    if($channelid==0)
+    {
+        $row = $dsql->GetOne("SELECT ch.* FROM `#@__arctype` tp LEFT JOIN `#@__channeltype` ch ON ch.id=tp.channeltype WHERE tp.id='$typeid'; ");
+    }
+    else
+    {
+        $row = $dsql->GetOne("SELECT * FROM `#@__channeltype` WHERE id='$channelid'; ");
+    }
+    if(!is_array($row))
+    {
+        echo "找不到频道内容模型信息，无法完成操作！";
+        exit();
+    }	
+   //分析规则，并生成临时的SQL语句
+    $channelid = $row['id'];
+    $maintable = $row['maintable'];
+    $addtable = $row['addtable'];
+    if(empty($maintable)) $maintable = '#@__archives';
+    if(empty($addtable))
+    {
+        echo "找不主表配置信息，无法完成操作！";
+        exit();
+    }
+    $adminid = $cuserLogin->getUserID();
+
+    //微索引表
+    $indexSqlTemplate = "INSERT INTO `#@__arctiny`(`arcrank`,`typeid`,`channel`,`senddate`,`sortrank`) VALUES ('-1','@typeid@' ,'$channelid','@senddate@', '@sortrank@'); ";
+
+    //基本信息主表
+    $mainSqlTemplate  = "INSERT INTO `$maintable`(id,typeid,sortrank,flag,ismake,channel,arcrank,click,money,title,shorttitle,color,writer,source,litpic,pubdate,senddate,mid,description,keywords)
+               VALUES ('@aid@','@typeid@','@sortrank@','@flag@','0','$channelid','$arcrank','0','0','@title@','','','@writer@','@source@','@litpic@','@pubdate@','@senddate@','$adminid','@description@','@keywords@'); ";
+    //生成附加表插入的SQL语句
+    $inadd_f = $inadd_v = '';
+    $dtp = new DedeTagParse();
+    $dtp->SetNameSpace('field','<','>');
+    $dtp->LoadString($row['fieldset']);
+    foreach($dtp->CTags as $ctag)
+    {
+        $tname = $ctag->GetTagName();
+        $inadd_f .= ",`$tname`";
+        $notsend = $ctag->GetAtt('notsend');
+        $fieldtype = $ctag->GetAtt('type');
+        if($notsend==1)
+        {
+            //对不同类型设置默认值
+            if($ctag->GetAtt('default')!='')
+            {
+                $dfvalue = $ctag->GetAtt('default');
+            }
+            else if($fieldtype=='int' || $fieldtype=='float' || $fieldtype=='number')
+            {
+                $dfvalue = '0';
+            }
+            else if($fieldtype=='dtime')
+            {
+                $dfvalue = time();
+            }
+            else
+            {
+                $dfvalue = '';
+            }
+            $inadd_v .= ",'$dfvalue'";
+        }
+        else
+        {
+            $inadd_v .= ",'@$tname@'";
+        }
+    }
+    $addSqlTemplate = "INSERT INTO `{$addtable}`(`aid`,`typeid`{$inadd_f}) Values('@aid@','@typeid@'{$inadd_v})";	
+	
+	$arr_b=require(DEDEDATA."/tb_b.php");		
+	
+     foreach($arr_b as $row)
+    {
+		
+		$title=iconv("utf-8","gbk",$row[0]);	
+		$imgurls=addslashes(iconv("utf-8","gbk",$row[1]));	
+        if(empty($title)) continue;
+       		
+		
+        //$addSqlTemplate,$mainSqlTemplate,$indexSqlTemplate
+        $ntypeid = $typeid;
+        $indexSql = str_replace('@typeid@', $ntypeid, $indexSqlTemplate);
+        $mainSql = str_replace('@typeid@', $ntypeid, $mainSqlTemplate);
+        $addSql = str_replace('@typeid@', $ntypeid, $addSqlTemplate);
+ 
+
+        //获取时间和标题
+        $pubdate = $sortrank = time();
+ 
+        $litpic = '';
+
+
+        //检测重复标题
+        $title = addslashes($title);
+        if($onlytitle)
+        {
+            $testrow = $dsql->GetOne("SELECT COUNT(ID) AS dd FROM `$maintable` WHERE title LIKE '$title'");
+            if($testrow['dd']>0)
+            {
+                echo "数据库已存在标题为: {$title} 的文档，程序阻止了此本条内容导入<br />\r\n";
+                continue;
+            }
+        }
+
+        //替换固定的项目
+        $senddate = time();
+        $flag = '';
+        if($litpic!='') $flag = 'p';
+
+        //随机推荐
+        if($randcc>0)
+        {
+            $rflag = mt_rand(1, $randcc);
+            if($rflag==$randcc)
+            {
+                $flag = ($flag=='' ? 'c' : $flag.',c');
+            }
+        }
+        $indexSql = str_replace('@senddate@', $senddate, $indexSql);
+        $indexSql = str_replace('@sortrank@', $sortrank, $indexSql);
+        $mainSql = str_replace('@flag@', $flag, $mainSql);
+        $mainSql = str_replace('@sortrank@', $sortrank, $mainSql);
+        $mainSql = str_replace('@pubdate@', $pubdate, $mainSql);
+        $mainSql = str_replace('@senddate@', $senddate, $mainSql);
+        $mainSql = str_replace('@title@', cn_substr($title, 60), $mainSql);
+        $addSql = str_replace('@sortrank@', $sortrank, $addSql);
+        $addSql = str_replace('@senddate@', $senddate, $addSql);
+ 		$addSql = str_replace('@imgurls@', $imgurls, $addSql);
+	
+ 
+	 
+        //插入数据库
+        $rs = $dsql->ExecuteNoneQuery($indexSql);
+        if($rs)
+        {
+            $aid = $dsql->GetLastID();
+            $mainSql = str_replace('@aid@', $aid, $mainSql);
+            $addSql = str_replace('@aid@', $aid, $addSql);
+            $mainSql = preg_replace("#@([a-z0-9]{1,})@#", '', $mainSql);
+            $addSql = preg_replace("#@([a-z0-9]{1,})@#", '', $addSql);
+            $rs = $dsql->ExecuteNoneQuery($mainSql);
+            if(!$rs)
+            {
+                echo "1导入 '$title' 时错误：".$dsql->GetError()."<br />";
+                $dsql->ExecuteNoneQuery("DELETE FROM `#@__arctiny` WHERE id='$aid' ");
+            }
+            else
+            {
+                $rs = $dsql->ExecuteNoneQuery($addSql);
+                if(!$rs)
+                {
+                    echo "2导入 '$title' 时错误：".$dsql->GetError()."<br />";
+                    $dsql->ExecuteNoneQuery("DELETE FROM `#@__arctiny` WHERE id='$aid' ");
+                    $dsql->ExecuteNoneQuery("DELETE FROM `$maintable` WHERE id='$aid' ");
+                }
+            }
+        }
+        $dsql->ExecuteNoneQuery("UPDATE `#@__co_htmls` SET isexport=1 WHERE aid='$exid' ");
+    }	
+     // $mhtml = "makehtml_list_action.php?typeid=$typeid&maxpagesize=20&upnext=0";
+      ShowMsg("完成数据导入",'javascript:;');
+      exit();	
+ 
+}
+elseif($dopost=="save")
+{ 
+	$re['appKey']=$appKey;
+	$re['appSecret']=$appSecret;	
+	arr2file(DEDEDATA."/tb_k.php",$re); 
+	ShowMsg("保存成功!","co_taobao_start.php");	 
+}
+elseif($dopost=="list")
+{
+	$arr=require(DEDEDATA."/tb_a.php");	
+	$totalcc=count($arr);	 
+     require_once(DEDEADMIN."/inc/inc_catalog_options.php");
+    $channelid=2; 	  
+    include DedeInclude("templets/co_export_taobao.htm");
+			
+}else{	
+/*	require_once(DEDEADMIN."/inc/inc_archives_functions.php");
+$artUrl = MakeArt('900', TRUE, TRUE, 1);*/
+	$app=require(DEDEDATA."/tb_k.php");
+	$appKey = $app['appKey'];
+	$appSecret = $app['appSecret'];
+	include DedeInclude('templets/co_taobao_start.htm');
+}
+
+// 数组保存到文件
+function arr2file($filename, $arr=''){
+	if(is_array($arr)){
+		$con = var_export($arr,true);
+	} else{
+		$con = $arr;
+	}
+	$con = "<?php\nreturn $con;\n?>";//\n!defined('IN_MP') && die();\nreturn $con;\n
+	file_put_contents($filename, $con);
+}

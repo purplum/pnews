@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field.title/} - {dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<LINK rel=stylesheet type=text/css href="/templets/css/css/article_list.css">
+<LINK rel=stylesheet type=text/css href="/templets/css/css/layout.css">
+<SCRIPT language=javascript src="index_article_files/jquery.js"></SCRIPT>
+<SCRIPT language=javascript src="index_article_files/jquery.lazyload.js"></SCRIPT>
+<SCRIPT type=text/javascript src="index_article_files/w3cer.js"></SCRIPT>
+<META name=GENERATOR content="MSHTML 9.00.8112.16464"></HEAD>
+<BODY>
+{dede:include filename="head3.htm"/}
+<DIV class=map><SPAN class=home_ico>当前位置：{dede:field name='position'/}</SPAN> 
+<P style="PADDING-RIGHT: 15px; FLOAT: right">
+<script src='/plus/ad_js.php?aid=24' language='javascript'></script>
+</P></DIV>
+<DIV class="article_list_con w972">
+<DIV class="article_list_left left">
+<DIV class="tuwen margin8">
+<UL>
+{dede:arclist orderby=pubdate limit='0,4' att=c type='image.' titlelen=24}
+  <LI><A title=[field:title/]
+  href="[field:arcurl/]"><IMG border=0 
+  alt=[field:title function='html2text(@me)'/] src="[field:litpic/]" 
+  width=140 height=100><SPAN title=[field:title/]>[field:title/]</SPAN></A> 
+  </LI>{/dede:arclist}</UL>
+<DIV style="CLEAR: both"></DIV></DIV>
+ {dede:channelartlist}
+<DIV class=lanmu>
+<H2><SPAN class="more right"><A href="{dede:field name='typeurl'/}" 
+target=_blank>更多&gt;&gt;</A></SPAN><SPAN class=h2_text>{dede:field name='typename'/}</SPAN></H2>
+<DIV class=lanmu_con>
+<DIV class=lanmu_pic>
+<UL>
+ {dede:arclist  orderby=pubdate noflag='c' limit='0,2' type='image.' titlelen=24}
+  <LI><A title=[field:title/]
+  href="[field:arcurl/]"><IMG border=0 
+  alt=[field:title function='html2text(@me)'/] src="[field:litpic/]" 
+  width=140 height=100></A> 
+  </LI>{/dede:arclist}</UL></DIV>
+<DIV class=lanmu_txt>
+<UL>
+ {dede:arclist  limit='0,8'  titlelen=48}
+  <LI><span>[field:pubdate function="MyDate('m-d',@me)"/]</span><A title=[field:title/] 
+  href="[field:arcurl/]">[field:title/]</A>{/dede:arclist}</UL></DIV>
+<DIV style="CLEAR: both"></DIV></DIV></DIV>{/dede:channelartlist}
+</DIV><!--article_list_left end-->
+<DIV class="article_list_right right">
+<DIV 
+style="BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; WIDTH: 250px; MARGIN-BOTTOM: 8px; HEIGHT: 250px; OVERFLOW: hidden; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid" 
+class=ad250>
+<script src='/plus/ad_js.php?aid=23' language='javascript'></script>
+</DIV><!--分类栏目end-->
+<DIV class=rand_pic>
+<H2><SPAN class=h2_txt>推荐图文</SPAN></H2>
+<UL>{dede:arclist  orderby=pubdate limit='0,4' type='image.' typeid=all titlelen=24}
+  <LI><A title=[field:title/]
+  href="[field:arcurl/]"><IMG border=0 
+  alt=[field:title function='html2text(@me)'/] src="[field:litpic/]" 
+  width=140 height=100><SPAN title=[field:title/]>[field:title/]</SPAN></A> 
+  </LI>{/dede:arclist}
+ </UL>
+<DIV style="CLEAR: both"></DIV></DIV>
+<DIV class=hot_tj>
+<H2><SPAN class=h2_txt>热点推荐</SPAN></H2>
+<UL>{dede:arclist  limit='0,10' typeid=all orderby=click titlelen=33}
+  <LI><A title=[field:title/] 
+  href="[field:arcurl/]">[field:title/]</A> {/dede:arclist}
+  
+</LI></UL>
+<DIV style="CLEAR: both"></DIV></DIV><!--热门推荐 end-->
+<DIV 
+style="BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; WIDTH: 250px; MARGIN-BOTTOM: 8px; HEIGHT: 250px; OVERFLOW: hidden; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid" 
+class=ad250>
+<script src='/plus/ad_js.php?aid=23' language='javascript'></script>
+</DIV></DIV>
+<DIV style="CLEAR: both"></DIV></DIV>
+{dede:include filename="footer2.htm"/}
+
+<SCRIPT type=text/javascript>
+$(function (){
+	$(window).manhuatoTop({
+		showHeight : 100,//设置滚动高度时显示
+		speed : 500 //返回顶部的速度以毫秒为单位
+	});
+});
+</SCRIPT>
+<!-- Baidu Button BEGIN -->
+<SCRIPT id=bdshare_js type=text/javascript 
+data="type=slide&amp;img=2&amp;uid=627811"></SCRIPT>
+
+<SCRIPT id=bdshell_js type=text/javascript></SCRIPT>
+
+<SCRIPT type=text/javascript>
+	document.getElementById("bdshell_js").src = "http://share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+</SCRIPT>
+<!-- Baidu Button END --></BODY></HTML>

@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $cfg_soft_lang; ?>">
+<title>采集节点</title>
+<script language='javascript'>
+function SubmitNew()
+{
+	document.form1.totalnum.value = "0";
+	document.form1.submit();
+}
+</script>
+<link href="css/base.css" rel="stylesheet" type="text/css">
+</head>
+<body background='images/allbg.gif' leftmargin='8' topmargin='8'>
+
+
+<table width="98%" border="0" cellpadding="3" cellspacing="1" bgcolor="#D6D6D6" align="center">
+      <form name="form2" action="co_taobao_start.php" method="post" > 
+    <tr>
+      <td width="108" valign="top" bgcolor="#FFFFFF">appKey：</td>
+      <td width="377" valign="top" bgcolor="#FFFFFF"><input type="text"  name="appKey" value="<?php echo $appKey?>"  size="30"/></td>
+    </tr>
+     <tr>
+      <td width="108" valign="top" bgcolor="#FFFFFF">appSecret：</td>
+      <td width="377" valign="top" bgcolor="#FFFFFF"><input type="text" size="60" name="appSecret" value="<?php echo $appSecret?>"/></td>
+    </tr>  
+      
+          <tr>
+      <td height="28" colspan="2" bgcolor="#ffffff" align="center">
+    <input name="dopost"  value="save" type="hidden"/>
+      	<input name="b112" type="button" class="coolbg np" value="保存配置" onClick="document.form2.submit();" style="width:100px" />　
+      </td>
+    </tr> 
+      </form>
+  </table>
+    
+<table width="98%" border="0" cellpadding="3" cellspacing="1" bgcolor="#D6D6D6" align="center">     
+      <form name="form1" action="co_taobao_start.php" method="post" > 
+    <tr>
+      <td width="108" valign="top" bgcolor="#FFFFFF">关键词：</td>
+      <td width="377" valign="top" bgcolor="#FFFFFF"><input type="text"  name="keys" value=""/></td>
+    </tr>    
+    
+    <tr>
+      <td width="108" valign="top" bgcolor="#FFFFFF">佣金比率：</td>
+      <td width="377" valign="top" bgcolor="#FFFFFF"><input type="text"  name="rate" value="1000"/> 格式：1234表示12.34% </td>
+    </tr> 
+    <tr>
+      <td width="108" valign="top" bgcolor="#FFFFFF">最低价格：</td>
+      <td width="377" valign="top" bgcolor="#FFFFFF"><input type="text"  name="price1" value="30"/></td>
+    </tr>  
+         
+     <tr>
+      <td width="108" valign="top" bgcolor="#FFFFFF">最高价格：</td>
+      <td width="377" valign="top" bgcolor="#FFFFFF"><input type="text"  name="price2" value="1000"/></td>
+    </tr>       
+      
+    <tr>
+      <td height="20" valign="top" bgcolor="#FFFFFF">采集数量：</td>
+      <td height="20" valign="top" bgcolor="#FFFFFF"><input type="text"  name="page_size" value="30"/></td>
+    </tr>
+ 
+ 
+ 
+    <tr>
+      <td height="28" colspan="2" bgcolor="#ffffff" align="center">
+      <input name="dopost"  value="post" type="hidden"/>
+      	<input name="b112" type="button" class="coolbg np" value="开始采集" onClick="document.form1.submit();" style="width:100px" />　
+      </td>
+    </tr>
+  </form>
+    
+
+</table>
+</body>
+</html>

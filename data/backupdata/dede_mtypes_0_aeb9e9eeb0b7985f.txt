@@ -1,0 +1,1 @@
+INSERT INTO `dede_mtypes` VALUES('1','ÐÄµÃ','1','6');

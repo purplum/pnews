@@ -1,0 +1,47 @@
+<?php
+$z[0]=Array("global","",236,264);
+$z[0][4]['name']="cfg_soft_lang";
+$z[1]=Array("field","",277,300);
+$z[1][4]['name']="seotitle";
+$z[2]=Array("global","",301,327);
+$z[2][4]['name']="cfg_webname";
+$z[3]=Array("field","",368,397);
+$z[3][4]['name']="keywords";
+$z[4]=Array("field","",437,495);
+$z[4][4]['name']="description";
+$z[4][4]['function']="html2text(@me)";
+$z[5]=Array("include","",1005,1041);
+$z[5][4]['filename']="head3.htm";
+$z[6]=Array("field","",1089,1118);
+$z[6][4]['name']="position";
+$z[7]=Array("field","",1506,1535);
+$z[7][4]['name']="typename";
+$z[8]=Array("arclist","\r\n  <LI><A title=[field:title/] \r\n  href=\"[field:arcurl/]\" target=_blank><IMG border=0 \r\n  alt=[field:title function='html2text(@me)'/] title=[field:title/] src=\"[field:litpic/]\" \r\n  width=140 height=100><p>[field:title/]</p></A> \r\n  </LI>",1602,1931);
+$z[8][4]['orderby']="pubdate";
+$z[8][4]['limit']="0,8";
+$z[8][4]['att']="c";
+$z[8][4]['type']="image.";
+$z[8][4]['titlelen']="24";
+$z[9]=Array("list","\r\n  <LI><span>[field:pubdate function=\"MyDate('m-d',@me)\"/]</span> <A title=[field:title/] \r\n  href=\"[field:arcurl/]\" target=_blank>[field:title/]</A></LI>",1974,2178);
+$z[9][4]['pagesize']="33";
+$z[9][4]['titlelen']="58";
+$z[10]=Array("pagelist","",2286,2364);
+$z[10][4]['listitem']="info,index,end,pre,next,pageno,option";
+$z[10][4]['listsize']="5";
+$z[11]=Array("arclist","\r\n  <LI><A title=[field:title/] \r\n  href=\"[field:arcurl/]\" target=_blank><IMG border=0 \r\n  alt=[field:title function='html2text(@me)'/] src=\"[field:litpic/]\" \r\n  width=140 height=100><SPAN title=[field:title/]>[field:title/]</SPAN></A> \r\n  </LI>",2590,2939);
+$z[11][4]['orderby']="pubdate";
+$z[11][4]['limit']="0,4";
+$z[11][4]['type']="image.";
+$z[11][4]['flag']="c";
+$z[11][4]['typeid']="all";
+$z[11][4]['titlelen']="24";
+$z[12]=Array("arclist","\r\n  <LI><A title=[field:title/] \r\n  href=\"[field:arcurl/]\" target=_blank>[field:title/]</A> ",3057,3241);
+$z[12][4]['limit']="0,10";
+$z[12][4]['subday']="20";
+$z[12][4]['typeid']="all";
+$z[12][4]['orderby']="click";
+$z[12][4]['titlelen']="33";
+$z[13]=Array("include","",3844,3882);
+$z[13][4]['filename']="footer2.htm";
+
+?>

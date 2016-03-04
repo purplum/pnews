@@ -1,0 +1,1 @@
+INSERT INTO `dede_plus_baidusitemap_list` VALUES('1','http://www.huchuan6.com/plus/baidusitemap.php?dopost=sitemap_index&type=indexinc&pwd=4d1b401bf65a5eb91f&pagesize=0','2','1397814106','0');

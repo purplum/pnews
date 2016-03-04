@@ -1,0 +1,1 @@
+INSERT INTO `dede_shops_delivery` VALUES('1','送货上门','10.21','送货上门,领取商品时付费.','0');

@@ -1,0 +1,208 @@
+42.121.52.2||/wap.php?action=article&id=1223+and+sleep%280%29||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='1223 and sleep(0)' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=1223+and+sleep%285-5%29||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='1223 and sleep(5-5)' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=1223+and+sleep%285%29||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='1223 and sleep(5)' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=1223%27+and+sleep%280%29%23||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='1223\' and sleep(0)#' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=1223%27+and+sleep%285-5%29%23||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='1223\' and sleep(5-5)#' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=1223%27+and+sleep%285%29%23||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='1223\' and sleep(5)#' LIMIT 0,1;||SelectBreak
+42.121.52.2||/plus/search.php?typeid=0&starttime=-1&channeltype=0&orderby=sortrank&pagesize=10&kwtype=1&searchtype=titlekeyword&q=135791+and+sleep%280%29||SELECT spwords FROM `dede_search_keywords` WHERE keyword='135791 and sleep 0 ' LIMIT 0,1;||SelectBreak
+42.121.52.2||/plus/search.php?typeid=0&starttime=-1&channeltype=0&orderby=sortrank&pagesize=10&kwtype=1&searchtype=titlekeyword&q=135791+and+sleep%285-5%29||SELECT spwords FROM `dede_search_keywords` WHERE keyword='135791 and sleep 5 5 ' LIMIT 0,1;||SelectBreak
+42.121.52.2||/plus/search.php?typeid=0&starttime=-1&channeltype=0&orderby=sortrank&pagesize=10&kwtype=1&searchtype=titlekeyword&q=135791+and+sleep%285%29||SELECT spwords FROM `dede_search_keywords` WHERE keyword='135791 and sleep 5 ' LIMIT 0,1;||SelectBreak
+42.121.52.2||/plus/search.php?typeid=0&starttime=-1&channeltype=0&orderby=sortrank&pagesize=10&kwtype=1&searchtype=titlekeyword&q=135791%27+and+sleep%280%29%23||SELECT spwords FROM `dede_search_keywords` WHERE keyword='135791  and sleep 0 #' LIMIT 0,1;||SelectBreak
+42.121.52.2||/plus/search.php?typeid=0&starttime=-1&channeltype=0&orderby=sortrank&pagesize=10&kwtype=1&searchtype=titlekeyword&q=135791%27+and+sleep%285-5%29%23||SELECT spwords FROM `dede_search_keywords` WHERE keyword='135791  and sleep 5 5 #' LIMIT 0,1;||SelectBreak
+42.121.52.2||/plus/search.php?typeid=0&starttime=-1&channeltype=0&orderby=sortrank&pagesize=10&kwtype=1&searchtype=titlekeyword&%CB%D1%CB%F7=%CB%D1%CB%F7&q=135791+and+sleep%280%29||SELECT spwords FROM `dede_search_keywords` WHERE keyword='135791 and sleep 0 ' LIMIT 0,1;||SelectBreak
+42.121.52.2||/plus/search.php?typeid=0&starttime=-1&channeltype=0&orderby=sortrank&pagesize=10&kwtype=1&searchtype=titlekeyword&q=135791%27+and+sleep%285%29%23||SELECT spwords FROM `dede_search_keywords` WHERE keyword='135791  and sleep 5 #' LIMIT 0,1;||SelectBreak
+42.121.52.2||/plus/search.php?typeid=0&starttime=-1&channeltype=0&orderby=sortrank&pagesize=10&kwtype=1&searchtype=titlekeyword&%CB%D1%CB%F7=%CB%D1%CB%F7&q=135791+and+sleep%285-5%29||SELECT spwords FROM `dede_search_keywords` WHERE keyword='135791 and sleep 5 5 ' LIMIT 0,1;||SelectBreak
+42.121.52.2||/plus/search.php?typeid=0&starttime=-1&channeltype=0&orderby=sortrank&pagesize=10&kwtype=1&searchtype=titlekeyword&%CB%D1%CB%F7=%CB%D1%CB%F7&q=135791+and+sleep%285%29||SELECT spwords FROM `dede_search_keywords` WHERE keyword='135791 and sleep 5 ' LIMIT 0,1;||SelectBreak
+42.121.52.2||/plus/search.php?typeid=0&starttime=-1&channeltype=0&orderby=sortrank&pagesize=10&kwtype=1&searchtype=titlekeyword&%CB%D1%CB%F7=%CB%D1%CB%F7&q=135791%27+and+sleep%280%29%23||SELECT spwords FROM `dede_search_keywords` WHERE keyword='135791  and sleep 0 #' LIMIT 0,1;||SelectBreak
+42.121.52.2||/plus/search.php?typeid=0&starttime=-1&channeltype=0&orderby=sortrank&pagesize=10&kwtype=1&searchtype=titlekeyword&%CB%D1%CB%F7=%CB%D1%CB%F7&q=135791%27+and+sleep%285-5%29%23||SELECT spwords FROM `dede_search_keywords` WHERE keyword='135791  and sleep 5 5 #' LIMIT 0,1;||SelectBreak
+42.121.52.2||/plus/search.php?typeid=0&starttime=-1&channeltype=0&orderby=sortrank&pagesize=10&kwtype=1&searchtype=titlekeyword&%CB%D1%CB%F7=%CB%D1%CB%F7&q=135791%27+and+sleep%285%29%23||SELECT spwords FROM `dede_search_keywords` WHERE keyword='135791  and sleep 5 #' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=list&id=3-%28-9%29-9-0-0-0--||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(3-(-9)-9-0-0-0--) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=3-%28-1%29-1-0-0-0--||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(3-(-1)-1-0-0-0--) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=3-%28-9999995%29-0--||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(3-(-9999995)-0--) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=3-%28-9%29-9-0-0-0%23||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(3-(-9)-9-0-0-0#) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=3-%28-1%29-1-0-0-0%23||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(3-(-1)-1-0-0-0#) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=3-%28-9999995%29-0%23||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(3-(-9999995)-0#) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=3%27and%280%29%3D%270%27--||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(3\'and(0)=\'0\'--) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=3%27and%28123%29%3D%27123%27--||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(3\'and(123)=\'123\'--) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=3%27and%28123%29%3D%27321%27--||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(3\'and(123)=\'321\'--) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=3%27and%280%29%3D%270%27%23||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(3\'and(0)=\'0\'#) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=3%27and%28123%29%3D%27123%27%23||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(3\'and(123)=\'123\'#) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=3%27and%28123%29%3D%27321%27%23||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(3\'and(123)=\'321\'#) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=39988%bf%27or+3%3D3+limit+1%23||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(39988¿\'or 3=3 limit 1#) And arcrank=0 ||comment detect
+42.121.52.2||/wap.php?action=list&id=39988%bf%27or+1%3D1+limit+1%23||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(39988¿\'or 1=1 limit 1#) And arcrank=0 ||comment detect
+42.121.52.2||/wap.php?action=list&id=39988%bf%27or+5%3D6+limit+1%23||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(39988¿\'or 5=6 limit 1#) And arcrank=0 ||comment detect
+42.121.52.2||/wap.php?action=list&id=3+and+sleep%280%29||Select typename,ishidden From `dede_arctype` where id='3 and sleep(0)' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=list&id=3+and+sleep%285-5%29||Select typename,ishidden From `dede_arctype` where id='3 and sleep(5-5)' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=list&id=3+and+sleep%285%29||Select typename,ishidden From `dede_arctype` where id='3 and sleep(5)' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=list&id=3%27+and+sleep%280%29%23||Select typename,ishidden From `dede_arctype` where id='3\' and sleep(0)#' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=list&id=3%27+and+sleep%285-5%29%23||Select typename,ishidden From `dede_arctype` where id='3\' and sleep(5-5)#' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=list&id=3%27+and+sleep%285%29%23||Select typename,ishidden From `dede_arctype` where id='3\' and sleep(5)#' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=14&id=3-%28%09select%090%09%29||Select id,title,pubdate,click From `dede_archives` where typeid in(3-(	select	0	)) And arcrank=0 order by id desc LIMIT 130,10||sub select detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=14&id=3-%28select+0+from+mysql.user+limit+1%29||Select id,title,pubdate,click From `dede_archives` where typeid in(3-(select 0 from mysql.user limit 1)) And arcrank=0 order by id desc LIMIT 130,10||sub select detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=14&id=3-%28%09select%090%09%29||Select id,title,pubdate,click From `dede_archives` where typeid in(3-(	select	0	)) And arcrank=0 order by id desc LIMIT 130,10||sub select detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=14&id=3-%28select+0+from+mysql.user+limit+1%29||Select id,title,pubdate,click From `dede_archives` where typeid in(3-(select 0 from mysql.user limit 1)) And arcrank=0 order by id desc LIMIT 130,10||sub select detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=14&id=3-%28%09select%090%09%29||Select id,title,pubdate,click From `dede_archives` where typeid in(3-(	select	0	)) And arcrank=0 order by id desc LIMIT 130,10||sub select detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=14&id=3-%28select+0+from+mysql.user+limit+1%29||Select id,title,pubdate,click From `dede_archives` where typeid in(3-(select 0 from mysql.user limit 1)) And arcrank=0 order by id desc LIMIT 130,10||sub select detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=3-%28-9%29-9-0-0-0--||Select id,title,pubdate,click From `dede_archives` where typeid in(3-(-9)-9-0-0-0--) And arcrank=0 order by id desc LIMIT 20,10||comment detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=3-%28-1%29-1-0-0-0--||Select id,title,pubdate,click From `dede_archives` where typeid in(3-(-1)-1-0-0-0--) And arcrank=0 order by id desc LIMIT 20,10||comment detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=3-%28-9999995%29-0--||Select id,title,pubdate,click From `dede_archives` where typeid in(3-(-9999995)-0--) And arcrank=0 order by id desc LIMIT 20,10||comment detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=3-%28-9%29-9-0-0-0%23||Select id,title,pubdate,click From `dede_archives` where typeid in(3-(-9)-9-0-0-0#) And arcrank=0 order by id desc LIMIT 20,10||comment detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=3-%28-1%29-1-0-0-0%23||Select id,title,pubdate,click From `dede_archives` where typeid in(3-(-1)-1-0-0-0#) And arcrank=0 order by id desc LIMIT 20,10||comment detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=3-%28-9999995%29-0%23||Select id,title,pubdate,click From `dede_archives` where typeid in(3-(-9999995)-0#) And arcrank=0 order by id desc LIMIT 20,10||comment detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=3%27and%280%29%3D%270%27--||Select id,title,pubdate,click From `dede_archives` where typeid in(3\'and(0)=\'0\'--) And arcrank=0 order by id desc LIMIT 20,10||comment detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=14&id=3-%28%09select%090%09%29||Select id,title,pubdate,click From `dede_archives` where typeid in(3-(	select	0	)) And arcrank=0 order by id desc LIMIT 130,10||sub select detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=3%27and%28123%29%3D%27123%27--||Select id,title,pubdate,click From `dede_archives` where typeid in(3\'and(123)=\'123\'--) And arcrank=0 order by id desc LIMIT 20,10||comment detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=14&id=3-%28select+0+from+mysql.user+limit+1%29||Select id,title,pubdate,click From `dede_archives` where typeid in(3-(select 0 from mysql.user limit 1)) And arcrank=0 order by id desc LIMIT 130,10||sub select detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=3%27and%28123%29%3D%27321%27--||Select id,title,pubdate,click From `dede_archives` where typeid in(3\'and(123)=\'321\'--) And arcrank=0 order by id desc LIMIT 20,10||comment detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=3%27and%280%29%3D%270%27%23||Select id,title,pubdate,click From `dede_archives` where typeid in(3\'and(0)=\'0\'#) And arcrank=0 order by id desc LIMIT 20,10||comment detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=3%27and%28123%29%3D%27123%27%23||Select id,title,pubdate,click From `dede_archives` where typeid in(3\'and(123)=\'123\'#) And arcrank=0 order by id desc LIMIT 20,10||comment detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=3%27and%28123%29%3D%27321%27%23||Select id,title,pubdate,click From `dede_archives` where typeid in(3\'and(123)=\'321\'#) And arcrank=0 order by id desc LIMIT 20,10||comment detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=39988%bf%27or+3%3D3+limit+1%23||Select id,title,pubdate,click From `dede_archives` where typeid in(39988¿\'or 3=3 limit 1#) And arcrank=0 order by id desc LIMIT 20,10||comment detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=39988%bf%27or+1%3D1+limit+1%23||Select id,title,pubdate,click From `dede_archives` where typeid in(39988¿\'or 1=1 limit 1#) And arcrank=0 order by id desc LIMIT 20,10||comment detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=39988%bf%27or+5%3D6+limit+1%23||Select id,title,pubdate,click From `dede_archives` where typeid in(39988¿\'or 5=6 limit 1#) And arcrank=0 order by id desc LIMIT 20,10||comment detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=3+and+sleep%280%29||Select typename,ishidden From `dede_arctype` where id='3 and sleep(0)' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=3+and+sleep%285-5%29||Select typename,ishidden From `dede_arctype` where id='3 and sleep(5-5)' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=3+and+sleep%285%29||Select typename,ishidden From `dede_arctype` where id='3 and sleep(5)' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=3%27+and+sleep%280%29%23||Select typename,ishidden From `dede_arctype` where id='3\' and sleep(0)#' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=3%27+and+sleep%285-5%29%23||Select typename,ishidden From `dede_arctype` where id='3\' and sleep(5-5)#' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=3%27+and+sleep%285%29%23||Select typename,ishidden From `dede_arctype` where id='3\' and sleep(5)#' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=3%2Bstyle=x:expre/**/ssion(ijv=430)%2B||Select id,title,pubdate,click From `dede_archives` where typeid in(3+style=x:expre/**/ssion(ijv=430)+) And arcrank=0 order by id desc LIMIT 20,10||comment detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=3&id=3"%2Bstyle=x:expre/**/ssion(ijv=663)%2B"||Select id,title,pubdate,click From `dede_archives` where typeid in(3\"+style=x:expre/**/ssion(ijv=663)+\") And arcrank=0 order by id desc LIMIT 20,10||comment detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=14&id=3%2Bstyle=x:expre/**/ssion(ijv=893)%2B||Select id,title,pubdate,click From `dede_archives` where typeid in(3+style=x:expre/**/ssion(ijv=893)+) And arcrank=0 order by id desc LIMIT 130,10||comment detect
+42.121.52.2||/wap.php?action=list&totalresult=131&pageno=14&id=3"%2Bstyle=x:expre/**/ssion(ijv=914)%2B"||Select id,title,pubdate,click From `dede_archives` where typeid in(3\"+style=x:expre/**/ssion(ijv=914)+\") And arcrank=0 order by id desc LIMIT 130,10||comment detect
+42.121.52.2||/wap.php?action=list&id=39-%28-9%29-9-0-0-0--||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(39-(-9)-9-0-0-0--) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=39-%28-1%29-1-0-0-0--||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(39-(-1)-1-0-0-0--) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=39-%28-9999995%29-0--||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(39-(-9999995)-0--) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=39-%28-9%29-9-0-0-0%23||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(39-(-9)-9-0-0-0#) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=39-%28-1%29-1-0-0-0%23||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(39-(-1)-1-0-0-0#) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=39-%28-9999995%29-0%23||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(39-(-9999995)-0#) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=39%27and%280%29%3D%270%27--||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(39\'and(0)=\'0\'--) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=39%27and%28123%29%3D%27123%27--||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(39\'and(123)=\'123\'--) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=39%27and%28123%29%3D%27321%27--||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(39\'and(123)=\'321\'--) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=39%27and%280%29%3D%270%27%23||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(39\'and(0)=\'0\'#) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=39%27and%28123%29%3D%27123%27%23||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(39\'and(123)=\'123\'#) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=39%27and%28123%29%3D%27321%27%23||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(39\'and(123)=\'321\'#) And arcrank=0 LIMIT 0,1;||comment detect
+42.121.52.2||/wap.php?action=list&id=399988%bf%27or+3%3D3+limit+1%23||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(399988¿\'or 3=3 limit 1#) And arcrank=0 ||comment detect
+42.121.52.2||/wap.php?action=list&id=399988%bf%27or+1%3D1+limit+1%23||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(399988¿\'or 1=1 limit 1#) And arcrank=0 ||comment detect
+42.121.52.2||/wap.php?action=list&id=399988%bf%27or+5%3D6+limit+1%23||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(399988¿\'or 5=6 limit 1#) And arcrank=0 ||comment detect
+42.121.52.2||/wap.php?action=list&id=39+and+sleep%280%29||Select typename,ishidden From `dede_arctype` where id='39 and sleep(0)' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=list&id=39+and+sleep%285-5%29||Select typename,ishidden From `dede_arctype` where id='39 and sleep(5-5)' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=list&id=39+and+sleep%285%29||Select typename,ishidden From `dede_arctype` where id='39 and sleep(5)' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=list&id=39%27+and+sleep%280%29%23||Select typename,ishidden From `dede_arctype` where id='39\' and sleep(0)#' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=list&id=39%27+and+sleep%285-5%29%23||Select typename,ishidden From `dede_arctype` where id='39\' and sleep(5-5)#' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=list&id=39%27+and+sleep%285%29%23||Select typename,ishidden From `dede_arctype` where id='39\' and sleep(5)#' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=8+and+sleep%280%29||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='8 and sleep(0)' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=8+and+sleep%285-5%29||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='8 and sleep(5-5)' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=8+and+sleep%285%29||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='8 and sleep(5)' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=8%27+and+sleep%280%29%23||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='8\' and sleep(0)#' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=8%27+and+sleep%285-5%29%23||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='8\' and sleep(5-5)#' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=8%27+and+sleep%285%29%23||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='8\' and sleep(5)#' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=780+and+sleep%280%29||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='780 and sleep(0)' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=780+and+sleep%285-5%29||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='780 and sleep(5-5)' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=780+and+sleep%285%29||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='780 and sleep(5)' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=780%27+and+sleep%280%29%23||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='780\' and sleep(0)#' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=780%27+and+sleep%285-5%29%23||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='780\' and sleep(5-5)#' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=780%27+and+sleep%285%29%23||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='780\' and sleep(5)#' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=list&id=1-%28%09select%090%09%29||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(1-(	select	0	)) And arcrank=0 LIMIT 0,1;||sub select detect
+42.121.52.2||/wap.php?action=list&id=1-%28select+0+from+mysql.user+limit+1%29||Select id,title,pubdate,click From `dede_archives` where typeid in(1-(select 0 from mysql.user limit 1)) And arcrank=0 order by id desc LIMIT 0,10||sub select detect
+42.121.52.2||/wap.php?action=list&id=36-%28%09select%090%09%29||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(36-(	select	0	)) And arcrank=0 LIMIT 0,1;||sub select detect
+42.121.52.2||/wap.php?action=list&id=36-%28select+0+from+mysql.user+limit+1%29||Select id,title,pubdate,click From `dede_archives` where typeid in(36-(select 0 from mysql.user limit 1)) And arcrank=0 order by id desc LIMIT 0,10||sub select detect
+42.121.52.2||/wap.php?action=list&id=1-%28%09select%090%09%29||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(1-(	select	0	)) And arcrank=0 LIMIT 0,1;||sub select detect
+42.121.52.2||/wap.php?action=list&id=1-%28select+0+from+mysql.user+limit+1%29||Select id,title,pubdate,click From `dede_archives` where typeid in(1-(select 0 from mysql.user limit 1)) And arcrank=0 order by id desc LIMIT 0,10||sub select detect
+42.121.52.2||/wap.php?action=list&id=36-%28%09select%090%09%29||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(36-(	select	0	)) And arcrank=0 LIMIT 0,1;||sub select detect
+42.121.52.2||/wap.php?action=list&id=36-%28select+0+from+mysql.user+limit+1%29||Select id,title,pubdate,click From `dede_archives` where typeid in(36-(select 0 from mysql.user limit 1)) And arcrank=0 order by id desc LIMIT 0,10||sub select detect
+42.121.52.2||/wap.php?action=list&id=1-%28%09select%090%09%29||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(1-(	select	0	)) And arcrank=0 LIMIT 0,1;||sub select detect
+42.121.52.2||/wap.php?action=list&id=1-%28select+0+from+mysql.user+limit+1%29||Select id,title,pubdate,click From `dede_archives` where typeid in(1-(select 0 from mysql.user limit 1)) And arcrank=0 order by id desc LIMIT 0,10||sub select detect
+42.121.52.2||/wap.php?action=list&id=36-%28%09select%090%09%29||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(36-(	select	0	)) And arcrank=0 LIMIT 0,1;||sub select detect
+42.121.52.2||/wap.php?action=list&id=36-%28select+0+from+mysql.user+limit+1%29||Select id,title,pubdate,click From `dede_archives` where typeid in(36-(select 0 from mysql.user limit 1)) And arcrank=0 order by id desc LIMIT 0,10||sub select detect
+42.121.52.2||/wap.php?action=list&id=36-%28%09select%090%09%29||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(36-(	select	0	)) And arcrank=0 LIMIT 0,1;||sub select detect
+42.121.52.2||/wap.php?action=list&id=36-%28select+0+from+mysql.user+limit+1%29||Select id,title,pubdate,click From `dede_archives` where typeid in(36-(select 0 from mysql.user limit 1)) And arcrank=0 order by id desc LIMIT 0,10||sub select detect
+42.121.52.2||/wap.php?action=list&id=1-%28%09select%090%09%29||SELECT COUNT(*) AS dd FROM `dede_archives` where typeid in(1-(	select	0	)) And arcrank=0 LIMIT 0,1;||sub select detect
+42.121.52.2||/wap.php?action=list&id=1-%28select+0+from+mysql.user+limit+1%29||Select id,title,pubdate,click From `dede_archives` where typeid in(1-(select 0 from mysql.user limit 1)) And arcrank=0 order by id desc LIMIT 0,10||sub select detect
+42.121.52.2||/wap.php?action=list&totalresult=37&pageno=2&id=36-%28%09select%090%09%29||Select id,title,pubdate,click From `dede_archives` where typeid in(36-(	select	0	)) And arcrank=0 order by id desc LIMIT 10,10||sub select detect
+42.121.52.2||/wap.php?action=list&totalresult=37&pageno=2&id=36-%28select+0+from+mysql.user+limit+1%29||Select id,title,pubdate,click From `dede_archives` where typeid in(36-(select 0 from mysql.user limit 1)) And arcrank=0 order by id desc LIMIT 10,10||sub select detect
+42.121.52.2||/wap.php?action=list&totalresult=37&pageno=2&id=36-%28%09select%090%09%29||Select id,title,pubdate,click From `dede_archives` where typeid in(36-(	select	0	)) And arcrank=0 order by id desc LIMIT 10,10||sub select detect
+42.121.52.2||/wap.php?action=list&totalresult=37&pageno=2&id=36-%28select+0+from+mysql.user+limit+1%29||Select id,title,pubdate,click From `dede_archives` where typeid in(36-(select 0 from mysql.user limit 1)) And arcrank=0 order by id desc LIMIT 10,10||sub select detect
+42.121.52.2||/wap.php?action=list&totalresult=37&pageno=2&id=36-%28%09select%090%09%29||Select id,title,pubdate,click From `dede_archives` where typeid in(36-(	select	0	)) And arcrank=0 order by id desc LIMIT 10,10||sub select detect
+42.121.52.2||/wap.php?action=list&totalresult=37&pageno=2&id=36-%28select+0+from+mysql.user+limit+1%29||Select id,title,pubdate,click From `dede_archives` where typeid in(36-(select 0 from mysql.user limit 1)) And arcrank=0 order by id desc LIMIT 10,10||sub select detect
+42.121.52.2||/wap.php?action=list&totalresult=37&pageno=2&id=36-%28%09select%090%09%29||Select id,title,pubdate,click From `dede_archives` where typeid in(36-(	select	0	)) And arcrank=0 order by id desc LIMIT 10,10||sub select detect
+42.121.52.2||/wap.php?action=list&totalresult=37&pageno=2&id=36-%28select+0+from+mysql.user+limit+1%29||Select id,title,pubdate,click From `dede_archives` where typeid in(36-(select 0 from mysql.user limit 1)) And arcrank=0 order by id desc LIMIT 10,10||sub select detect
+42.121.52.2||/wap.php?action=article&id=1224+and+sleep%280%29||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='1224 and sleep(0)' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=1224+and+sleep%285-5%29||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='1224 and sleep(5-5)' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=1224+and+sleep%285%29||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='1224 and sleep(5)' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=1224%27+and+sleep%280%29%23||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='1224\' and sleep(0)#' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=1224%27+and+sleep%285-5%29%23||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='1224\' and sleep(5-5)#' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=article&id=1224%27+and+sleep%285%29%23||Select tp.typename,tp.ishidden,arc.typeid,arc.title,arc.arcrank,arc.pubdate,arc.writer,arc.click,addon.body From `dede_archives` arc 
+	  left join `dede_arctype` tp on tp.id=arc.typeid
+	  left join `dede_addonarticle` addon on addon.aid=arc.id
+	  where arc.id='1224\' and sleep(5)#' LIMIT 0,1;||SelectBreak
+42.121.52.2||/wap.php?action=list&totalresult=37&pageno=2&id=36"%2Bstyle=x:expre/**/ssion(ijv=558)%2B"||Select id,title,pubdate,click From `dede_archives` where typeid in(36\"+style=x:expre/**/ssion(ijv=558)+\") And arcrank=0 order by id desc LIMIT 10,10||comment detect

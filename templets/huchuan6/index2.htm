@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<LINK rel=stylesheet type=text/css 
+href="/templets/css/css/index2.css">
+<LINK rel=stylesheet type=text/css href="/templets/css/css/layout2.css">
+<SCRIPT language=javascript src="/templets/css/js/jquery.js"></SCRIPT>
+<SCRIPT type=text/javascript src="/templets/css/js/w3cer.js"></SCRIPT>
+<base target="_blank">
+
+</HEAD>
+<BODY>
+{dede:include filename="head3.htm"/}
+<DIV class="w972 margin8">
+<DIV class="index_left left">
+  <div class=top_left>
+    <div class="facus_left left">
+      <div class=index_slide>
+        <div id=areaA class=box>
+          <ul id=slideshow>
+            {dede:arclist att=f row='5' addfields='huandeng' titlelen='32' orderby='pubdate' 
+
+infolen='100' channelid='1' listtype='image'}
+            <li>
+              <h3>[field:title/]</h3>
+              <span>[field:huandeng/]</span> <a title=[field:title/] href="[field:arcurl/]" 
+
+target="_blank"></a>{/dede:arclist} </li>
+          </ul>
+          <div id=wrapper>
+            <div id=fullsize>
+              <div id=imgprev class=imgnav title=上一张图></div>
+              <div id=imglink target="_blank"></div>
+              <div id=imgnext class=imgnav title=下一张图></div>
+              <div id=image></div>
+              <div id=information>
+                <h3></h3>
+              </div>
+            </div>
+            <div id=thumbnails>
+              <div id=slideleft title=向左滚动></div>
+              <div id=slidearea>
+                <div id=slider></div>
+              </div>
+              <div id=slideright title=向右滚动></div>
+            </div>
+            <!--focus end-->
+          </div>
+          <script language=javascript type=text/javascript>
+    var slideshow=new TINY.slideshow("slideshow");
+    slideshow.auto=true;
+	slideshow.sctollTex=false;//文本信息是否停止弹出动作
+    slideshow.speed=4;
+    slideshow.link="linkhover";
+    slideshow.info="information";
+    slideshow.thumbs="slider";
+    slideshow.scrollSpeed=4;
+    slideshow.spacing=5;//缩略图间距
+	slideshow.numClass="back";//数字默认样式名
+	slideshow.numCurClass="currentBack";//数字当前样式名
+    slideshow.init("slideshow","image","imgprev","imgnext","imglink");
+    </script>
+        </div>
+      </div>
+      <!--index_slider end-->
+      <div class=software>
+        <h2><span class="more right"><a 
+href="#">更多>></a></span><span 
+class=h2_txt>精彩内容</span></h2>
+        <div class=softlist> {dede:arclist att=a orderby=pubdate limit='0,4' type='image.' titlelen=33  infolen='36'}
+          <dl>
+              <dt><a href="[field:arcurl/]" target="_blank"><img alt=[field:title/] 
+  src="[field:litpic/]" /></a> </dt>
+            <dd class=softname><a title=[field:title/] 
+  href="[field:arcurl/]" target="_blank">[field:title/]</a> </dd>
+            <dd class=softinfo>[field:info/]...</dd>
+          </dl>
+          {/dede:arclist} </div>
+      </div>
+      <!--常用软件 end-->
+    </div>
+    <div class="top_right right">
+      <!--首页头条end-->
+      <div class=web_jc2>
+        <h2><span class="more right"><a href="/jing/">更多>></a></span><span class=h2_txt>最新资讯
+</span></h2>
+       
+		{dede:arclist orderby=pubdate limit='0,5'  noflag=h typeid=1,2,3,4,36,39,8,41 titlelen=40  infolen='85' type='image.'}
+        <dl>
+          <dt><a title=[field:title/] href="[field:arcurl/]" target=_blank><img alt=[field:title/] src="[field:litpic/]" /></a> </dt>
+          <dd class=textname><a title=[field:title/] href="[field:arcurl/]" target="_blank">[field:title/]</a> </dd>
+          <dd class=texttxt title="[field:info/]">[field:info/]…
+            <div style="CLEAR: both"></div>
+          </dd>
+        </dl>
+        {/dede:arclist} </div>
+      <!--专题推荐end-->
+    </div>
+    <div style="CLEAR: both"></div>
+  </div>
+
+</DIV>     <!--index_left end--> 
+
+
+<DIV class="index_right right">
+<DIV class=quick_nav>
+<H2><SPAN class=h2_txt>免费资源</SPAN></H2>
+<UL>
+  <LI><A title=新手帮助 href="http://bbs.huchuan6.com/forum-55-1.html" target="_blank"><IMG 
+  alt=新手帮助 src="/templets/css/img/xinshou.jpg"></A> </LI>
+  
+  <LI><A title=软件工具 href="http://bbs.huchuan6.com/forum-84-1.html" target="_blank"><IMG 
+  alt=软件工具 src="/templets/css/img/gongju.jpg"></A> </LI>
+  
+  <LI><A title=淘宝客资源 href="http://bbs.huchuan6.com/forum-89-1.html" 
+
+target="_blank"><IMG alt=淘宝客资源 
+  src="/templets/css/img/taoke.jpg"></A> </LI>
+  
+  <LI><A title=cms模板 href="http://bbs.huchuan6.com/forum-84-1.html" target="_blank"><IMG 
+
+alt=cms模板 
+  src="/templets/css/img/moban.jpg"></A> </LI>
+  
+  <LI><A title=整站源码 href="http://bbs.huchuan6.com/forum-83-1.html" target="_blank"><IMG 
+
+alt=整站源码 
+  src="/templets/css/img/yuanma.jpg"></A> </LI>
+  
+  <LI><A title=网店装修素材 href="http://bbs.huchuan6.com/forum-44-1.html" 
+
+target="_blank"><IMG alt=网店装修素材 
+  src="/templets/css/img/wangdian.jpg"></A> 
+  <DIV style="CLEAR: both"></DIV></LI></UL></DIV>
+<DIV class=hot_news>
+<H2><SPAN class=h2_txt>本周热点</SPAN></H2>
+<UL>{dede:arclist sort='hot' subday='100' titlelen=34 row=9}
+  <LI><A title=[field:title/] 
+  href="[field:arcurl/]" target="_blank">[field:title/]</A>  {/dede:arclist}
+
+ </UL></DIV>
+
+</DIV>
+<DIV style="CLEAR: both"></DIV><!--top part end--></DIV>
+
+<!--top part end-->
+<DIV class="big_ad1 margin8">
+<script src='/plus/ad_js.php?aid=22' language='javascript'></script>
+</DIV>
+<DIV style="CLEAR: both"></DIV>
+<DIV class="w972s margin8">
+<DIV class=web_jc>
+<H2><SPAN class="more right"><A 
+href="/news/">更多>></A></SPAN><SPAN 
+class=h2_txt>热点文章</SPAN></H2>
+{dede:arclist  orderby=pubdate limit='0,1' type='image.' titlelen=46  sort='hot' infolen='46'}
+<DL>
+  <DT><A title=[field:title/] href="[field:arcurl/]" 
+  target=_blank><IMG alt=[field:title/] src="[field:litpic/]"></A> 
+</DT>
+  <DD class=textname><A title=[field:title/] 
+  href="[field:arcurl/]" target="_blank">[field:title/]</A> 
+  <DD class=texttxt title="[field:info/]">[field:info/]… 
+  <DIV style="CLEAR: both"></DIV></DD></DL>{/dede:arclist}
+<UL>{dede:arclist titlelen='42' limit='1,11' sort='hot'}
+
+  <LI><A title="[field:title/]" href="[field:arcurl/]" target="_blank">
+  [field:title /]</A> </LI>{/dede:arclist}
+ </UL></DIV>
+<DIV style="MARGIN-LEFT: 8px" class=web_jc2>
+<H2><SPAN class="more right"><A 
+href="/jing/">更多>></A></SPAN><SPAN 
+class=h2_txt>推荐文章</SPAN></H2>
+{dede:arclist  orderby=pubdate limit='3,5' titlelen=40  infolen='85' noflag=h type='image.' typeid=1,2,3,4,36,39,8,41}
+<DL>
+  <DT><A title=[field:title/] href="[field:arcurl/]" 
+  target=_blank><IMG alt=[field:title/] src="[field:litpic/]"></A> 
+</DT>
+  <DD class=textname><A title=[field:title/] 
+  href="[field:arcurl/]" target="_blank">[field:title/]</A> 
+  <DD class=texttxt 
+  title="[field:info/]">[field:info/]… 
+  <DIV style="CLEAR: both"></DIV></DD></DL>{/dede:arclist}
+</DIV>
+  <DIV style="MARGIN-LEFT: 7px" class=web_jc3>
+<H2><SPAN class="more right"><A 
+href="http://bbs.huchuan6.com/">更多>></A></SPAN><SPAN 
+class=h2_txt>论坛热帖</SPAN></H2>
+<UL><script type="text/javascript" src="http://bbs.huchuan6.com/api.php?mod=js&bid=6"></script></UL></DIV>
+<DIV style="CLEAR: both"></DIV></DIV>
+<DIV class="big_ad1 margin8">
+<script src='/plus/ad_js.php?aid=22' language='javascript'></script>
+</DIV>
+<DIV class="w972s w972 margin8">
+<DIV class=web_jc>
+<H2><SPAN class="more right"><A 
+href="/news/">更多>></A></SPAN><SPAN 
+class=h2_txt>随机推荐</SPAN></H2>
+{dede:arclist  limit='0,1' type='image.' titlelen=46 orderby='rand' infolen='46'}
+<DL>
+  <DT><A title=[field:title/] href="[field:arcurl/]" 
+  target=_blank><IMG alt=[field:title/] src="[field:litpic/]"></A> 
+</DT>
+  <DD class=textname><A title=[field:title/] 
+  href="[field:arcurl/]" target="_blank">[field:title/]</A> 
+  <DD class=texttxt 
+  title="[field:info/]">[field:info/]… 
+  <DIV style="CLEAR: both"></DIV></DD></DL>{/dede:arclist}
+<UL>
+  
+{dede:arclist titlelen='42' limit='0,11' orderby='rand'}
+
+  <LI><A title="[field:title/]" href="[field:arcurl/]" target="_blank"> 
+  [field:title /]</A> </LI>{/dede:arclist}
+  
+ </UL></DIV>
+<DIV style="MARGIN-LEFT: 8px" class=web_jc2>
+
+<H2><SPAN class="more right"><A 
+href="http://www.huchuan6.com/tui/">更多>></A></SPAN><SPAN 
+class=h2_txt>精彩资讯</SPAN></H2>
+{dede:arclist  orderby=pubdate limit='8,5' titlelen=40 noflag=h infolen='85' type='image.' typeid=1,2,3,4,36,39,8,41}
+<DL>
+  <DT><A title=[field:title/] href="[field:arcurl/]" 
+  target=_blank><IMG alt=[field:title/] src="[field:litpic/]"></A> 
+</DT>
+  <DD class=textname><A title=[field:title/] 
+  href="[field:arcurl/]" target="_blank">[field:title/]</A> 
+  <DD class=texttxt 
+  title="[field:info/]">[field:info/]… 
+  <DIV style="CLEAR: both"></DIV></DD></DL>{/dede:arclist}
+</DIV>
+  <DIV style="MARGIN-LEFT: 7px" class=web_jc3>
+<H2><SPAN class="more right"><A 
+href="/jian/">更多>></A></SPAN><SPAN 
+class=h2_txt>建站设计</SPAN></H2>
+{dede:arclist  orderby=pubdate limit='0,1' type='image.' titlelen=44 typeid=9 infolen='40'}
+<DL>
+  <DT><A title=[field:title/] href="[field:arcurl/]" 
+  target=_blank><IMG alt=[field:title/] src="[field:litpic/]"></A> 
+</DT>
+  <DD class=textname><A title=[field:title/] 
+  href="[field:arcurl/]" target="_blank">[field:title/]</A> 
+  <DD class=texttxt title="[field:info/]">[field:info/]… 
+  <DIV style="CLEAR: both"></DIV></DD></DL>{/dede:arclist}
+<UL>{dede:arclist titlelen='42' limit='1,11' typeid=9}
+
+  <LI><A title="[field:title/]" href="[field:arcurl/]" target="_blank"> 
+  [field:title /]</A> </LI>{/dede:arclist}</UL></DIV>
+<DIV style="CLEAR: both"></DIV></DIV>
+<!-- <DIV class=big_ad1>
+<script src='/plus/ad_js.php?aid=22' language='javascript'></script>
+</DIV> -->
+<DIV class=art_pic>
+<H2><SPAN class="more right"><A href="/ym/" target="_blank">更多>></A></SPAN><SPAN 
+class=h2_txt>精品源码推荐</SPAN></H2>
+<UL>{dede:arclist  orderby=pubdate limit='0,4' type='image.' typeid=27 titlelen=35 att=c}
+  <LI><a target="_blank" href="[field:arcurl/]"><img alt="[field:title function='html2text
+
+(@me)'/]" src="[field:litpic/]">
+ <p>[field:title/]</p> </a></LI>
+  {/dede:arclist}
+  <DIV style="CLEAR: both"></DIV></LI></UL></DIV>
+<DIV id=links>
+<H2><SPAN class="more right"><A 
+href="/plus/flink_add.php">申请加入>></A></SPAN><SPAN 
+class=h2_txt>友情链接/Links</SPAN></H2>
+<DIV class=link_con><ul>{dede:flink type='textall' row='60' typeid=1}{/dede:flink}	
+</ul></DIV></DIV>
+{dede:include filename="footer2.htm"/}
+</BODY></HTML>

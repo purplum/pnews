@@ -1,0 +1,7 @@
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('siteurl','http://www.huchuan6.com/','1397814105');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('checksign','db449be7dc22b51cf84259081272bdfe','1397814105');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('pingtoken','09270375155e3f9f5d62e11ba4c4e7be','1397814105');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('bdpwd','4d1b401bf65a5eb91f','1396738404');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('setupmaxaid','1520','1397814106');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('lastuptime_all','1396738404','1396738404');
+INSERT INTO `dede_plus_baidusitemap_setting` VALUES('lastuptime_inc','1397814106','1397814106');

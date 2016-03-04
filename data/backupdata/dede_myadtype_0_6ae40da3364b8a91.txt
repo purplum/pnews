@@ -1,0 +1,2 @@
+INSERT INTO `dede_myadtype` VALUES('1','首页广告');
+INSERT INTO `dede_myadtype` VALUES('2','内页广告');

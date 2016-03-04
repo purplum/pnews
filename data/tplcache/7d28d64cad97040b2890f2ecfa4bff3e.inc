@@ -1,0 +1,1 @@
+<a rel="tag">[field:tag /]</a>
